@@ -1,0 +1,862 @@
+{
+  "stats": {
+    "length": { "label": "TOTAL LENGTH", "value": "54.4 Meters" },
+    "capacity": { "label": "GUEST CAPACITY", "value": "14 Guests" },
+    "staterooms": { "label": "STATEROOMS", "value": "7 Ultra-Suites" }
+  },
+  "curations": {
+    "title": "BESPOKE <span class=\"text-luxury-gold\">CURATIONS</span>",
+    "description": "Designed by Cristiano Gatto Design Studio in Italy, every square inch of the Majesty 175 is crafted to evoke a sense of boundless space and tranquility.",
+    "features": {
+        "cinema": { "title": "ONBOARD CINEMA", "desc": "A private 12-seat theater with state-of-the-art Dolby Atmos surround sound." },
+        "helipad": { "title": "TOUCH-AND-GO HELIPAD", "desc": "Seamless arrival and departure for high-profile guests directly on the bow." },
+        "spa": { "title": "PRIVATE SANCTUARY SPA", "desc": "Full-service wellness center including a sauna, hammam, and massage suite." }
+    }
+  },
+  "testimonials": {
+    "tag": "REVIEWS",
+    "title": "WHAT GUESTS SAY",
+    "subtitle": "Verified reviews from guests who booked our luxury yacht rental in Dubai.",
+    "reviews": {
+        "review1": { "name": "Daniel H.", "yacht": "Charter: Majesty 101 FT", "text": "The booking process was seamless, but the experience aboard the Majesty 101 was beyond words. The crew handled every detail with absolute discretion and professionalism." },
+        "review2": { "name": "Sophia L.", "yacht": "Charter: Benetti 164 FT", "text": "Exceeded every expectation. From the bespoke catering to the route tailored exactly to our preferences. A true masterclass in luxury hospitality." },
+        "review3": { "name": "James T.", "yacht": "Charter: Azimut 62 FT", "text": "We booked for a corporate sunset cruise. The yacht was immaculate, the service was invisible yet anticipatory. Highly recommended for exclusive events." }
+    }
+  },
+  "dj": {
+    "hero": {
+      "title": "PRIVATE EXPERIENCE <br/><span class=\"italic font-light text-luxury-gold text-4xl lg:text-5xl\">WITH ONBOARD DJ</span>",
+      "subtitle": "More than a rental, a curated VIP party on the high seas. Professional DJ, premium sound, iconic Dubai views, and five-star service from the first beat to the last track.",
+      "tags": {
+        "dj_set": "Professional DJ Set",
+        "sound": "High-Fidelity Premium Sound",
+        "playlist": "Custom Playlist",
+        "skyline": "Dubai Skyline Route"
+      },
+      "cta": {
+        "whatsapp": "WhatsApp",
+        "call": "Call Now",
+        "email": "Email"
+      }
+    },
+    "metrics": {
+      "minutes": { "value": "60-180 MINUTES", "desc": "Of pure energy and live mixes." },
+      "hours": { "value": "1-6 HOURS", "desc": "Of personalized cruising." },
+      "vibes": { "value": "VIP VIBES", "desc": "An atmosphere designed for exclusivity." }
+    },
+    "packages": {
+      "tag": "THE VIBE COLLECTION",
+      "sunset": {
+        "title": "SUNSET LOUNGE",
+        "subtitle": "The most romantic",
+        "desc": "Perfect for relaxed cruises and couples.",
+        "points": [
+          "Deep House, Lounge, and Chill mix blends.",
+          "Sunset route with cinematic views.",
+          "Ideal for proposals, anniversaries, and intimate celebrations."
+        ],
+        "button": "Check Availability"
+      },
+      "party": {
+        "title": "PARTY MODE",
+        "subtitle": "The most popular",
+        "desc": "Birthdays, groups, and maximum energy.",
+        "points": [
+          "Open set (Afro, Hip-Hop, House, current hits).",
+          "Fluid transitions and reading the floor to keep the hype.",
+          "The best option for birthday parties and group celebrations."
+        ],
+        "button": "Book now"
+      },
+      "vip": {
+        "title": "VIP EVENT",
+        "subtitle": "Ultra Premium",
+        "desc": "Corporate and luxury hosting.",
+        "points": [
+          "Elegant set curated for high-profile guests.",
+          "Ideal for networking and exclusive business meetings.",
+          "Discreet service flow with an impeccable sonic experience."
+        ],
+        "button": "Contact Concierge"
+      }
+    },
+    "how_it_works": {
+      "title": "HOW IT WORKS",
+      "step1": { "title": "CHOOSE YACHT AND DATE", "desc": "Send preferred yacht size and duration. We confirm instantly." },
+      "step2": { "title": "SELECT YOUR DJ PACK", "desc": "Choose between Sunset Lounge, Party Mode, or VIP Event and tell us your musical preferences." },
+      "step3": { "title": "ROUTE AND EXTRAS", "desc": "We select the best route (Marina, Palm, Atlantis) and add catering or decoration if you wish." },
+      "step4": { "title": "BOARD AND CELEBRATE", "desc": "Arrive at the marina, come aboard, and enjoy a private party with premier service." }
+    },
+    "social": {
+      "tag": "WHAT OUR CLIENTS SAY",
+      "title": "VIP EXPERIENCES",
+      "review1": { "text": "The deep house set during sunset was incredible. The sound quality onboard exceeded our expectations.", "name": "James T.", "service": "Sunset Lounge" },
+      "review2": { "text": "We celebrated my birthday with the Party Mode and the DJ kept the dance floor full all night. A 5-star experience!", "name": "Sarah M.", "service": "Party Mode" },
+      "review3": { "text": "Unbelievable energy. The DJ really knew how to read the crowd. Best boat party in Dubai.", "name": "Alex K.", "service": "Techno Cruise" },
+      "review4": { "text": "Professional setup and great selection of music. Highly recommend for any corporate event.", "name": "Robert B.", "service": "Corporate Event" }
+    },
+    "seo": {
+      "tag_label": "TAGS & QUICK LINKS",
+      "tags": [
+        "Yacht with DJ Dubai", "Private Sea Party", "Premium Sound Dubai", "Yacht Rental for Events", "Deep House Yacht", "Dubai Marina Party"
+      ]
+    }
+  },
+  "watersports": {
+    "hero": {
+      "title": "WATER SPORTS <br/><span class=\"italic font-light text-luxury-gold text-4xl lg:text-5xl\">EXPERIENCE</span>",
+      "subtitle": "Add adrenaline to your day at sea with our premium selection of water sports: Jet Ski, Seabob, Wakeboarding, and more. We handle all logistics and safety so you just enjoy the speed.",
+      "categories": {
+        "jetski": "Jet Ski",
+        "seabob": "SeaBob",
+        "wakeboarding": "Wakeboarding",
+        "safety": "Guaranteed Safety"
+      },
+      "cta": {
+        "book": "Book Sports",
+        "call": "Call Now",
+        "email": "Email"
+      }
+    },
+    "catalog": {
+      "tag": "PURE ADRENALINE",
+      "title": "SPORTS CATALOG",
+      "activities": {
+        "jetski": { "title": "JET SKI", "subtitle": "The most popular", "desc": "High-speed fun with the best views of the Dubai skyline. Perfect for groups taking turns during the charter." },
+        "seabob": { "title": "SEABOB", "subtitle": "Luxury & Fluidity", "desc": "Premium underwater gliding experience. Easy to use, ideal for cinematic underwater videos." },
+        "wakeboarding": { "title": "WAKEBOARDING", "subtitle": "Pure adrenaline", "desc": "For thrill-seekers and sports lovers. Includes professional gear and guide." },
+        "banana": { "title": "BANANA RIDE", "subtitle": "Group fun", "desc": "Guaranteed laughs activity. Ideal for families and groups of friends wanting to enjoy together." },
+        "donut": { "title": "DONUT RIDE", "subtitle": "Fast and fun", "desc": "High-energy ride with spins and jumps over the waves. Quick setup and instant fun." },
+        "paddle": { "title": "PADDLE BOARD", "subtitle": "Relaxation", "desc": "Quiet activity to explore scenic routes. Perfect for sunrise or sunset." }
+      },
+      "add_to_charter": "Add to Charter"
+    },
+    "expectations": {
+      "title": "WHAT TO EXPECT",
+      "safety": { "title": "SAFETY & BRIEFING", "desc": "We provide all essential safety gear and quick instructions before starting." },
+      "timing": { "title": "PERFECT TIMING", "desc": "We recommend the best time during your charter based on the route and sea conditions." },
+      "content": { "title": "CONTENT MOMENTS", "desc": "Strategic points near iconic monuments for amazing action photos and videos." }
+    },
+    "faq": {
+      "title": "FREQUENTLY ASKED QUESTIONS",
+      "items": [
+        { "q": "Can I add sports to any yacht?", "a": "Yes, we confirm compatibility based on the yacht size and chosen route to ensure maximum safety and fun." },
+        { "q": "Is it safe for beginners?", "a": "Absolutely. We give a quick guide, complete safety gear, and escort if necessary." },
+        { "q": "What is the best time?", "a": "Usually when the sea is calmest, preferably in the mornings or before sunset." },
+        { "q": "Can several activities be combined?", "a": "Yes, many clients mix Jet Ski with SeaBob to create a personalized water park in the sea." }
+      ]
+    },
+    "social": {
+      "tag": "ADRENALINE TESTIMONIALS",
+      "review1": { "text": "Adding the Jet Ski to the charter was the best decision. We all took turns and the photos jumping over the waves in front of Atlantis turned out amazing.", "name": "David L.", "service": "Jet Ski Experience" },
+      "review2": { "text": "The team explained everything about the SeaBob very quickly. It feels like flying underwater. Totally premium and very safe.", "name": "Sophie M.", "service": "SeaBob Session" },
+      "review3": { "text": "The flyboarding was intense! The instructors were patient and I was flying in minutes.", "name": "Mark R.", "service": "Flyboard Session" },
+      "review4": { "text": "Perfect organization. The jet skis were in top condition and the route was scenic.", "name": "Julia S.", "service": "Jet Ski Safari" }
+    },
+    "footer": {
+      "title": "READY FOR <span class=\"italic text-luxury-gold\">ACTION?</span>",
+      "subtitle": "Tell us your yacht (or number of people), date, and the activities you desire. We will send you a premium quote instantly.",
+      "cta_whatsapp": "WhatsApp",
+      "cta_call": "Call"
+    }
+  },
+  "nav": {
+    "home": "HOME",
+    "fleet": "FLEET",
+    "services": "SERVICES",
+    "private_dj": "High Seas YACHT Private DJ",
+    "catering": "VIP Catering",
+    "water_sports": "Water Sports",
+    "packages": "PACKAGES",
+    "birthday": "Birthday Celebration",
+    "corporate": "Corporate Events",
+    "romantic": "Romantic Getaway",
+    "about_us": "ABOUT US",
+    "faq": "FAQ",
+    "company_owner": "Company Owner",
+    "contact_whatsapp": "Contact via WhatsApp",
+    "support_24_7": "24/7 Support",
+    "menu": "MENU"
+  },
+  "hero": {
+    "subtitle": "DUBAI MARINA, UAE",
+    "title": "LUXURY <span class=\"text-luxury-gold\">YACHT</span> RENTAL",
+    "description": "Redefining Dubai's skyline. Immerse yourself in a bespoke luxury yacht charter experience. Where state-of-the-art marine engineering meets world-class service. Unparalleled extravagance awaits across Dubai Marina.",
+    "cta": "EXPLORE OUR FLEET",
+    "scroll_banner": "THE GOLD STANDARD OF THE MARINA"
+  },
+  "footer": {
+    "description": "The pinnacle of luxury yachting in Dubai. A fleet that doesn't just sail the seas, but commands them with unparalleled grace and technical superiority.",
+    "contact": "Contact",
+    "charter_desk": "Charter Desk",
+    "ownership": "Ownership Inquiry",
+    "press": "Press Office",
+    "connect": "Connect",
+    "all_rights": "ALL RIGHTS RESERVED.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "intro": {
+    "title": "THE SUPREME STANDARD IN<br />PRIVATE NAVIGATION",
+    "subtitle": "Transforming the Dubai skyline into your personal stage.",
+    "p1": "High Seas YACHT™ redefines the concept of luxury charter in Dubai Marina and Dubai Harbour. Our fleet is designed for those who accept no compromises, offering the perfect balance between premier naval engineering and unprecedented hospitality. From high-profile celebrations and corporate events to intimate sunset cruises, every nautical mile is covered with absolute precision.",
+    "p2": "Whether seeking the serenity of a private offshore sanctuary or a sophisticated platform for social events, our collection of vessels ensures comfort, discretion, and an onboard experience that exceeds any expectation in the waters of the Emirates.",
+    "why_choose": "Why choose the <span class=\"text-luxury-gold\">High Seas YACHT </span> experience?",
+    "features": {
+      "prestige": {
+        "title": "PRESTIGE FLEET CURATION",
+        "desc": "A rigorous selection of vessels of various calibers, tailored for exclusive groups, families, or corporate delegations."
+      },
+      "ports": {
+        "title": "ACCESS TO STRATEGIC PORTS",
+        "desc": "Embarkation and disembarkation points in the most privileged areas: Dubai Marina and Dubai Harbour."
+      },
+      "hospitality": {
+        "title": "PREMIER HOSPITALITY",
+        "desc": "Certified crews dedicated exclusively to your safety, privacy, and absolute comfort."
+      },
+      "booking": {
+        "title": "SIMPLIFIED BOOKING MANAGEMENT",
+        "desc": "A transparent and efficient planning process, with direct support for personalized itineraries."
+      },
+      "excellence": {
+        "title": "COMMITMENT TO EXCELLCE",
+        "desc": "Total focus on service quality, ensuring a smooth journey from the first contact."
+      }
+    },
+    "cta_fleet": "Explore the Fleet",
+    "cta_packages": "Experiences and Packages",
+    "cta_availability": "Check Availability"
+  },
+  "how_it_works": {
+    "title": "HOW IT WORKS",
+    "steps": {
+      "step1": { "title": "SEND YOUR BRIEF", "desc": "Type of event, guests, and date. We confirm options instantly." },
+      "step2": { "title": "CHOOSE YACHT AND ROUTE", "desc": "We recommend the best vessel according to your schedule and vibe." },
+      "step3": { "title": "ADD BRANDING", "desc": "Select catering, seating layout, and branding touches." },
+      "step4": { "title": "HOST ONBOARD", "desc": "Arrive at the marina and let our team manage everything." }
+    }
+  },
+  "fleet": {
+    "title": "<span class=\"italic font-light text-luxury-gold text-4xl lg:text-5xl\">OUR PREMIER FLEET</span>",
+    "subtitle": "Discover our curated collection of ultra-luxury yachts. Experience unparalleled elegance against the Dubai skyline.",
+    "pax": "PAX",
+    "cabins": "Cabins",
+    "luxury_class": "Luxury Class",
+    "per_hour": "/hr",
+    "price_request": "Price on Request",
+    "whatsapp": "WhatsApp",
+    "details": "Details",
+    "interests": "Hello, I am interested in booking the {{yacht}}.",
+    "whatsapp_main": "Hello, I would like to inquire about chartering a premier yacht."
+  },
+  "catering": {
+    "hero_title": "PREMIUM CATERING <br/><span class=\"italic font-light text-luxury-gold text-4xl lg:text-5xl\">ONBOARD</span>",
+    "hero_description": "\"From elegant canapés to live BBQs and signature platters. We bring a five-star culinary experience to the high seas. Perfect for birthdays, proposals, corporate events, and VIP celebrations.\"",
+    "categories": {
+        "canapes": "Canapés & Bites",
+        "bbq": "Live BBQ",
+        "pastry": "Signature Pastry",
+        "beverage": "Beverage Service"
+    },
+    "grid": {
+        "canapes": { "title": "CANAPÉS & BITES", "desc": "Gourmet bite-sized delights." },
+        "sushi": { "title": "SUSHI PLATTERS", "desc": "Fresh sushi and sashimi selections with Instagram-ready presentation." },
+        "bbq_setup": { "title": "LIVE BBQ SETUP", "desc": "Premium BBQ cooked to order." },
+        "desserts": { "title": "DESSERTS & CAKES", "desc": "Fine pastries and cakes." },
+        "fruits": { "title": "FRUIT PLATTERS", "desc": "Tropical and seasonal fruits." }
+    },
+    "value_props": {
+        "title": "WHY OUR CATERING?",
+        "presentation": { "title": "5-STAR PRESENTATION", "desc": "Luxury plating and impeccable setup for your photos and VIP hosting." },
+        "fresh": { "title": "FRESH & CUSTOMIZED", "desc": "Menus adapted to your occasion, schedule, and dietary preferences (vegan, gluten-free)." },
+        "professional": { "title": "PROFESSIONAL SERVICE", "desc": "Uniformed and discreet crew, expert in service flow at high-level events." }
+    },
+    "menus": {
+        "header_tag": "GOURMET SELECTION",
+        "header_title": "CURATED MENUS",
+        "reviews_tag": "GOURMET REVIEWS",
+        "labels": {
+            "ideal_for": "Ideal For",
+            "includes": "Includes"
+        },
+        "platters": {
+            "title": "SIGNATURE PLATTERS",
+            "subtitle": "The most popular",
+            "ideal_for": "Birthdays and casual luxury.",
+            "includes": "Mix of canapés, premium sliders, fruit platters, and dessert selection. Soft drinks and ice included.",
+            "button": "Request Catalog"
+        },
+        "sushi": {
+            "title": "SUSHI & LUXE BITES",
+            "subtitle": "VIP Favorite",
+            "ideal_for": "Corporate events and networking.",
+            "includes": "Selection of varied sushi, hot and cold gourmet canapés, and signature mini desserts.",
+            "button": "Request Catalog"
+        },
+        "bbq": {
+            "title": "LIVE BBQ EXPERIENCE",
+            "subtitle": "High impact",
+            "ideal_for": "Large celebrations and groups.",
+            "includes": "Live grill setup, premium cuts of meat and seafood, sides, and chef onboard.",
+            "button": "Plan BBQ"
+        }
+    },
+    "addons": {
+        "title": "GASTRONOMIC ADD-ONS",
+        "subtitle": "Elevate your event with these exclusive details designed to measure.",
+        "cakes": { "title": "CUSTOM CAKES", "desc": "Minimalist and elegant styles delivered directly to the yacht." },
+        "station": { "title": "BEVERAGE STATION", "desc": "Premium bar options and gala presentation (upon request)." },
+        "decor": { "title": "TABLE DECORATION", "desc": "Table styling, floral arrangements, and details that elevate the experience." },
+        "add_btn": "Add"
+    },
+    "cta": {
+        "title": "LET'S MAKE YOUR DINNER AT SEA <br/><span class=\"italic text-luxury-gold\">UNFORGETTABLE</span>",
+        "button": "Receive PDF Catalog"
+    },
+    "btns": {
+        "request": "Request Menu",
+        "call": "Call Now",
+        "email": "Email"
+    },
+    "testimonials": {
+      "review1": {
+        "text": "The live BBQ was spectacular. The chef prepared incredible cuts while we cruised in front of the marina. 10/10 service.",
+        "name": "Michael R.",
+        "tag": "Live BBQ Experience"
+      },
+      "review2": {
+        "text": "We hired the sushi and gourmet bites catering for a corporate event. The presentation was as good as the taste. Totally recommended.",
+        "name": "Elena V.",
+        "tag": "Corporate Hosting"
+      },
+      "review3": {
+        "text": "An unforgettable culinary journey. From the canapes to the main course, everything was world-class.",
+        "name": "James L.",
+        "tag": "Gourmet Dinner"
+      },
+      "review4": {
+        "text": "The best seafood I've ever had on a boat. Fresh, flavorful, and beautifully presented.",
+        "name": "Sarah K.",
+        "tag": "Seafood Feast"
+      }
+    }
+  },
+  "birthday": {
+    "title": "PREMIER <br/><span class=\"italic font-light text-luxury-gold text-4xl lg:text-5xl\">CELEBRATIONS AT SEA</span>",
+    "subtitle": "We design curated birthday experiences in Dubai Marina. Customize every detail: from decoration and catering to the perfect itinerary according to availability.",
+    "tag": "BIRTHDAY PACKAGES",
+    "cta": {
+      "whatsapp": "WhatsApp Now",
+      "call": "Call for Booking",
+      "whatsapp_message": "Hello, I am interested in the {{package}} package."
+    },
+    "labels": {
+      "duration": "Duration",
+      "ideal_for": "Ideal For",
+      "highlights": "Highlights",
+      "whats_included": "WHAT'S INCLUDED"
+    },
+    "packages": {
+      "marina_party": {
+        "title": "BIRTHDAY PARTY DUBAI MARINA",
+        "duration": "3 Hours",
+        "ideal_for": "Friends, Families, and Party groups",
+        "highlights": "The best option to vibe with the Dubai skyline and music on board. Perfect for group photo sessions.",
+        "includes": [
+          "Captain and crew",
+          "Soft drinks and water",
+          "Bluetooth sound system",
+          "Safety equipment"
+        ]
+      },
+      "sunset_cruise": {
+        "title": "BIRTHDAY SUNSET CRUISE",
+        "duration": "2 Hours",
+        "ideal_for": "Couples, Families, and VIP Groups",
+        "highlights": "Golden Hour views for the best birthday photos. Smooth sailing with premium crew.",
+        "includes": [
+          "Captain and crew",
+          "Premium beverages",
+          "Music system",
+          "Safety equipment"
+        ]
+      },
+      "premier_vip": {
+        "title": "PREMIER VIP BIRTHDAY CHARTER",
+        "duration": "3 to 4 Hours",
+        "ideal_for": "VIP Guests and Exclusive private groups",
+        "highlights": "Ultra-luxury yachts with superior comfort. Routes towards Palm Jumeirah and Atlantis. Personalized VIP coordination.",
+        "includes": [
+          "Premier crew",
+          "Gourmet catering",
+          "Flexible route planning",
+          "VIP coordination support"
+        ]
+      }
+    },
+    "addons": {
+      "tag": "CUSTOM EXTRAS",
+      "items": {
+        "decoration": {
+          "title": "DECORATION",
+          "desc": "Custom balloon themes and personalized table styling."
+        },
+        "cake": {
+          "title": "CAKE",
+          "desc": "We coordinate the perfect cake for your special moment."
+        },
+        "catering": {
+          "title": "CATERING & BBQ",
+          "desc": "Bespoke dining options tailored to your preferences."
+        },
+        "photo": {
+          "title": "PHOTO MOMENTS",
+          "desc": "Time planning for photos with the skyline and iconic landmarks."
+        }
+      }
+    }
+  },
+  "experiences": {
+    "tag": "Curator's Journey",
+    "title": "Exclusivity <br /> <span class=\"italic font-light text-luxury-gold text-4xl lg:text-5xl\">Redefined.</span>",
+    "description": "An editorial selection of the most prestigious maritime experiences in the Middle East — once activated, we don't leave you on the water.",
+    "items": {
+      "sunset": {
+        "title": "The Sunset Soirée",
+        "desc": "Witness the Dubai skyline transform under the amber glow of the Arabian sun. A choreographed evening of live jazz, vintage champagne, and bespoke canapés curated by Michelin-star chefs.",
+        "label": "THE COLLECTION"
+      },
+      "f1": {
+        "title": "F1 Grand Prix Trackside",
+        "desc": "The ultimate adrenaline experience. Secure a frontline berth at Yas Marina for the Abu Dhabi Grand Prix. Unrivalled proximity to the circuit, celebrity guest lists, and 24/7 butler service.",
+        "label": "THE COLLECTION"
+      },
+      "island": {
+        "title": "Private Island Escapes",
+        "desc": "Escape the urban pulse for the secluded shores of the World Islands. A day of absolute privacy, featuring luxury beach setups, personal dive masters, and a sunset yoga session.",
+        "label": "THE COLLECTION"
+      }
+    },
+    "labels": {
+      "guests": "Guests",
+      "guests_value": "Up to {{count}}",
+      "cabins": "Cabins",
+      "cabins_value": "{{count}} Suites",
+      "speed": "Speed",
+      "length": "Length",
+      "enquire": "Enquire",
+      "explore": "Explore More"
+    },
+    "bespoke": {
+      "title": "Request a <span class=\"text-luxury-gold\">Bespoke Charter</span>",
+      "desc": "Our concierge team is available to tailor an experience to your exact requirements. From multi-day coastal tours to private events.",
+      "cta": "Speak With a Consultant"
+    }
+  },
+  "romantic": {
+    "title": "ROMANTIC LUXURY <br/><span class=\"italic font-light text-luxury-gold text-4xl lg:text-5xl\">ON THE WATER</span>",
+    "subtitle": "\"Create unforgettable memories under the stars of Dubai. From marriage proposals to exclusive anniversaries, we design the perfect setting for your love story.\"",
+    "cta": {
+      "whatsapp": "WhatsApp Concierge",
+      "call": "Call Now",
+      "book": "Book Experience",
+      "contact": "Contact Concierge"
+    },
+    "values": {
+      "privacy": {
+        "title": "ABSOLUTE PRIVACY",
+        "desc": "Professional crew trained in total discretion for intimate moments."
+      },
+      "settings": {
+        "title": "ICONIC SETTINGS",
+        "desc": "Perfect backdrops in front of the Burj Al Arab or Atlantis during the 'Golden Hour'."
+      },
+      "details": {
+        "title": "CURATED DETAILS",
+        "desc": "Fresh flowers, customized music, and gourmet candlelit dinners."
+      }
+    },
+    "packages": {
+      "sunset": {
+        "title": "SUNSET ROMANCE",
+        "duration": "2 Hours",
+        "ideal_for": "Ideal for special dates",
+        "includes": ["Sunset views", "Premium refreshments", "Ambient music"]
+      },
+      "proposal": {
+        "title": "PROPOSAL EXPERIENCE",
+        "duration": "3 Hours",
+        "ideal_for": "Special for marriage proposals",
+        "includes": ["Premium floral decoration", "Red carpet (optional)", "Professional photographer"]
+      },
+      "anniversary": {
+        "title": "ANNIVERSARY LUXURY",
+        "duration": "3 to 4 Hours",
+        "ideal_for": "The most comprehensive package",
+        "includes": ["3-course gourmet dinner", "Cruising Palm Jumeirah", "Dedicated host service"]
+      }
+    },
+    "addons": {
+      "title": "ROMANTIC ADD-ONS",
+      "items": {
+        "catering": { "title": "Gourmet Catering", "desc": "Seafood menus, sushi stations, or signature desserts." },
+        "floral": { "title": "Floral Decoration", "desc": "Red rose bouquets and high-end floral arrangements." },
+        "music": { "title": "Live Music", "desc": "Violinist or saxophonist onboard for an unparalleled atmosphere." },
+        "photo": { "title": "Photography & Drone", "desc": "Cinematic aerial shots of your special moment." }
+      }
+    },
+    "support": {
+      "title": "Do you need help planning the perfect moment?",
+      "desc": "Tell us your budget and the occasion, and our Concierge team will recommend the best option from our fleet with fast booking."
+    }
+  },
+  "corporate": {
+    "title": "CORPORATE YACHT <br/><span class=\"italic font-light text-luxury-gold text-4xl lg:text-5xl\">EVENTS & HOSTING</span>",
+    "subtitle": "Our corporate packages are designed for high-level events, combining professionalism, exclusivity, and the best views of Dubai.",
+    "labels": {
+      "ideal_for": "Ideal For",
+      "highlights": "Highlights",
+      "included": "WHAT'S INCLUDED"
+    },
+    "cta": {
+      "whatsapp": "WhatsApp Now",
+      "call": "Call for Booking",
+      "wa_message": "Hello, I am interested in the {{package_title}} package."
+    },
+    "hero": {
+      "title": "CORPORATE YACHT <br/><span class=\"italic font-light text-luxury-gold text-4xl lg:text-5xl\">EVENTS & HOSTING</span>",
+      "description": "\"Impress your clients, reward your team, or host VIP networking in Dubai's most exclusive environment. Premium yachts, professional crew, and impeccable logistics.\"",
+      "tags": ["Executive Hosting", "Team Events", "Client Meetings", "Catering & Service"],
+      "cta": {
+        "whatsapp": "WhatsApp Corporate",
+        "email": "Email Us"
+      }
+    },
+    "value_prop": {
+      "tag": "WHY CHOOSE High Seas YACHT FOR YOUR EVENTS",
+      "propositions": [
+        { "title": "HIGH-LEVEL IMPRESSION", "desc": "A luxury environment that instantly elevates your brand presence." },
+        { "title": "PROFESSIONAL AND DISCREET", "desc": "Crew trained for executive flow and VIP service." },
+        { "title": "READY FOR CONTENT & PR", "desc": "Spaces designed for product launches with Dubai as a backdrop." },
+        { "title": "FULLY CUSTOMIZABLE", "desc": "Company branding, tailored catering, and route planning." },
+        { "title": "ICONIC ROUTES", "desc": "Strategic stops at Burj Al Arab and Atlantis for brand moments." },
+        { "title": "TEAM ENERGY", "desc": "Experiences that strengthen relationships and boost team morale." }
+      ]
+    },
+    "addons": {
+      "tag": "CORPORATE ADD-ONS",
+      "items": [
+        { "title": "Catering & Canapés", "desc": "From light bites to gourmet dinners." },
+        { "title": "MC / Speeches", "desc": "Support for presentations and professional hosting flow." },
+        { "title": "DJ / Live Music", "desc": "Lounge atmosphere or party energy according to the corporate vibe." },
+        { "title": "Photo & Video", "desc": "Capture key moments and corporate network-ready content." },
+        { "title": "Branding Setup", "desc": "Welcome signage, table styling, and logo placement." }
+      ]
+    },
+    "packages": {
+      "meeting": {
+        "title": "EXECUTIVE MEETING",
+        "duration": "2-3 Hours",
+        "ideal_for": "Small VIP groups",
+        "highlights": "Quiet and private environment, ideal for business meetings and negotiations with discreet premier service.",
+        "includes": ["Captain and crew", "Premium refreshments and coffee", "Total privacy", "Safety equipment"]
+      },
+      "hosting": {
+        "title": "CLIENT HOSTING",
+        "duration": "3-4 Hours",
+        "ideal_for": "Receptions and networking",
+        "highlights": "The most popular. Luxury flow with premium beverages and strategic stops to impress key clients.",
+        "includes": ["Captain and crew", "Premium beverages and snacks", "Scenic photo route", "Safety equipment"]
+      },
+      "branding": {
+        "title": "BRAND ACTIVATION",
+        "duration": "4-6 Hours",
+        "ideal_for": "High-impact events and brands",
+        "highlights": "Large-capacity yachts ideal for on-board branding, live music/DJ, and product presentations.",
+        "includes": ["Premier crew", "Corporate sound system", "Space for branding", "Flexible route planning"]
+      }
+    }
+  },
+  "owner": {
+    "tag": "WHY CHOOSE High Seas YACHT FOR YOUR EVENTS",
+    "title": "THE VISIONARY <br /> <span class=\"italic font-light text-luxury-gold text-4xl lg:text-5xl\">BEHIND THE HELM</span>",
+    "name": "Tamer Mohamed Mahmoud Mohamed Elzayat",
+    "description": "From deep maritime roots to the consolidation of High Seas YACHT as the benchmark for luxury charters in Dubai. With extensive experience in the high-end hospitality industry, his mission is clear: to redefine the standard of excellence, exclusivity, and bespoke service in the waters of the Arabian Gulf.",
+    "cards": {
+      "clientele": { "title": "Premier Clientele", "desc": "Global brands and high-profile figures." },
+      "f1": { "title": "Formula 1 Expertise", "desc": "Specialists in the Abu Dhabi Grand Prix." },
+      "worldwide": { "title": "Worldwide Charters", "desc": "Operations in international destinations." },
+      "bespoke": { "title": "Bespoke Standards", "desc": "Every stunning detail personally curated." }
+    },
+    "cta": {
+      "whatsapp": "WHATSAPP NOW",
+      "call": "CALL +971 58 217 7682"
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "FREQUENTLY ASKED <br /><span class=\"italic font-light text-luxury-gold text-4xl lg:text-5xl\">QUESTIONS</span>",
+      "description": "Clear answers for yacht bookings, departures from Dubai Marina and Dubai Harbour, VIP fleet, routes, and onboard services.",
+      "cta": {
+        "whatsapp": "Book via WhatsApp",
+        "call": "Call Now"
+      }
+    },
+    "steps": {
+      "title": "SIMPLE STEPS TO BOOK YOUR <br /><span class=\"italic font-light text-luxury-gold text-4xl lg:text-5xl\">PREMIER YACHT</span>"
+    },
+    "services_list": {
+      "title": "SERVICES INCLUDED IN THIS <span class=\"text-luxury-gold\">FAQ</span>"
+    },
+    "help": {
+      "view_fleet": "View Yacht Fleet",
+      "view_packages": "View Dubai Packages",
+      "contact_support": "Contact & Support"
+    },
+    "categories": {
+      "logistics": {
+        "title": "Category 1: Bookings & Logistics",
+        "q1": { "q": "What is included in the High Seas Yacht rental price?", "a": "Includes: yacht, captain, crew, standard fuel, soft drinks, ice, and towels." },
+        "q2": { "q": "How do I book quickly?", "a": "Via WhatsApp with date, pax, and duration." },
+        "q3": { "q": "Where do the yachts depart from in Dubai?", "a": "Dubai Marina and Dubai Harbour." },
+        "q4": { "q": "How far in advance should I book?", "a": "We recommend 48h, but we accommodate last-minute requests subject to availability." },
+        "q5": { "q": "How do I confirm my booking?", "a": "By paying the deposit and confirming via WhatsApp." },
+        "q6": { "q": "Can you send the exact map location after booking?", "a": "Yes, a direct Google Maps link to the boarding pier is sent." }
+      },
+      "experience": {
+        "title": "Category 2: Onboard Experience",
+        "q1": { "q": "What should we bring for the yacht trip?", "a": "Comfortable clothing, sunscreen, and original ID documents." },
+        "q2": { "q": "Are outside food and drinks allowed?", "a": "Yes, you can bring what you wish or request our premium catering." },
+        "q3": { "q": "Do you offer BBQ and catering services?", "a": "Yes, we have BBQ and luxury catering menus upon advance request." },
+        "q4": { "q": "Are there shaded areas on the yachts?", "a": "All our yachts feature spacious shaded areas and air-conditioned lounges." },
+        "q5": { "q": "Can we stop at a restaurant or near a monument?", "a": "Yes, we can anchor in front of the Burj Al Arab, Atlantis, or Ain Dubai for photos and swimming." },
+        "q6": { "q": "Are pets allowed onboard?", "a": "Only on selected vessels and under specific conditions." },
+        "q7": { "q": "Can we smoke on the yacht?", "a": "Only in the open areas of the exterior deck." },
+        "q8": { "q": "Is alcohol allowed?", "a": "Yes, according to UAE maritime regulations." }
+      },
+      "events": {
+        "title": "Category 3: Events & Specials",
+        "q1": { "q": "Do you have yachts for 10, 20, or 30 guests?", "a": "We have a versatile fleet ranging from sports yachts to high-capacity mega-yachts." },
+        "q2": { "q": "Do you organize marriage proposals or birthdays?", "a": "We are experts in personalized decorations and romantic setups." },
+        "q3": { "q": "Is a DJ available for yacht parties?", "a": "Yes, we can include a professional DJ and high-fidelity sound systems." },
+        "q4": { "q": "Do you offer Jet Skis and water sports?", "a": "Yes, we can coordinate Jet Skis and Flyboards to be delivered to your yacht." },
+        "q5": { "q": "Do you have photographers available?", "a": "Yes, we offer photography and drone video services." },
+        "q6": { "q": "Do you do branding or banners for corporate events?", "a": "Yes, we customize the yacht for brand launches and corporate events." }
+      },
+      "policies": {
+        "title": "Category 4: Policies & Safety",
+        "q1": { "q": "What happens if the weather is bad on the booking day?", "a": "If the Coast Guard restricts departure, we reschedule or refund your deposit." },
+        "q2": { "q": "What is the cancellation policy?", "a": "We evaluate refund conditions based on advance notice timeframe and internal rules." },
+        "q3": { "q": "What time should we arrive before departure?", "a": "We recommend arriving 15-20 minutes early for a relaxed boarding process." },
+        "q4": { "q": "Is there parking near the pickup point?", "a": "Yes, there are parking options in Dubai Marina Mall and surrounding areas." }
+      }
+    }
+  },
+  "yacht_details": {
+    "not_found": "Yacht not found",
+    "return_home": "Return Home",
+    "back": "Back",
+    "fleet_tag": "VIP Fleet Collection",
+    "overview": {
+      "title": "Yacht Overview",
+      "location": "Dubai Harbor",
+      "length": "Length",
+      "capacity": "Capacity",
+      "cabins": "Cabins",
+      "crew": "Crew",
+      "crew_value": "2-3 Staff",
+      "price_unit": "AED",
+      "hour_unit": "/HR",
+      "price_on_request": "Price on Request",
+      "not_available": "N/A"
+    },
+    "cta": {
+      "whatsapp": "Reserve via WhatsApp",
+      "email": "Email Us",
+      "call": "Call Desk",
+      "whatsapp_message": "Hello, I am interested in chartering the {{yacht}}."
+    },
+    "experience": {
+      "title": "The Experience",
+      "stats": "{{yacht}}. Price per hour {{price}} AED. Capacity {{capacity}} pax. Cabins {{cabins}}.",
+      "p1": "Whether you are planning an intimate sunset cruise, a lively celebration, or a high-end corporate event, every inch of this yacht is tailored to perfection. Featuring premium lounge areas, state-of-the-art entertainment systems, and luxurious accommodations.",
+      "p2": "Our highly trained premier crew is dedicated to anticipating your every need—from expertly crafted catering menus to navigating the spectacular coastlines of the UAE. Your journey is limited only by your imagination.",
+      "amenities": {
+        "audio": "Audio",
+        "solarium": "Solarium",
+        "ac": "AC",
+        "drinks": "Drinks",
+        "swim": "Swim"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        { "q": "What is included in the charter price?", "a": "The standard rental price includes the exclusive use of the yacht, a licensed captain and professional crew, fuel for cruising around Dubai Marina and JBR, safety equipment, drinking water, and ice. Soft drinks and snacks are also complimentary." },
+        { "q": "How many guests are permitted onboard?", "a": "Safety is our top priority. The {{yacht}} holds a strict maritime passenger limit of {{capacity}} guests. This limit includes adults, children, and infants." },
+        { "q": "Can we bring our own food and alcohol?", "a": "Absolutely! You are welcome to bring your own food and alcoholic beverages. We provide glasses, ice, and basic serving equipment. Alternatively, we can arrange premium catering and professional mixologists for you." },
+        { "q": "What is the minimum rental duration?", "a": "The minimum booking duration is 2 hours. However, we highly advise booking at least 3-4 hours if you wish to comfortably cruise past the Palm Jumeirah, Burj Al Arab, and anchor for swimming." }
+      ]
+    },
+    "similar": {
+      "title": "Explore Similar Yachts",
+      "price_unit": "AED",
+      "hour_unit": "/hr",
+      "whatsapp": "WhatsApp",
+      "details": "Details"
+    }
+  },
+  "romantic_packages": {
+    "hero": {
+      "title_main": "ROMANTIC LUXURY",
+      "title_accent": "ON THE WATER",
+      "subtitle": "\"Create unforgettable memories under the stars of Dubai. From marriage proposals to exclusive anniversaries, we design the perfect setting for your love story.\""
+    },
+    "cta": {
+      "whatsapp": "WhatsApp Concierge",
+      "call": "Call Now",
+      "book": "Book Experience",
+      "contact": "Contact Concierge"
+    },
+    "values": [
+      {
+        "title": "ABSOLUTE PRIVACY",
+        "desc": "Professional crew trained in total discretion for intimate moments."
+      },
+      {
+        "title": "ICONIC SETTINGS",
+        "desc": "Perfect backdrops in front of the Burj Al Arab or Atlantis during the 'Golden Hour'."
+      },
+      {
+        "title": "CURATED DETAILS",
+        "desc": "Fresh flowers, customized music, and gourmet candlelit dinners."
+      }
+    ],
+    "packages": {
+      "items": [
+        {
+          "title": "SUNSET ROMANCE",
+          "duration": "2 Hours",
+          "idealFor": "Ideal for special dates",
+          "includes": ["Sunset views", "Premium refreshments", "Ambient music"]
+        },
+        {
+          "title": "PROPOSAL EXPERIENCE",
+          "duration": "3 Hours",
+          "idealFor": "Special for marriage proposals",
+          "includes": ["Premium floral decoration", "Red carpet (optional)", "Professional photographer"]
+        },
+        {
+          "title": "ANNIVERSARY LUXURY",
+          "duration": "3 to 4 Hours",
+          "idealFor": "The most comprehensive package",
+          "includes": ["3-course gourmet dinner", "Cruising Palm Jumeirah", "Dedicated host service"]
+        }
+      ]
+    },
+    "addons": {
+      "title": "ROMANTIC ADD-ONS",
+      "items": [
+        { "title": "Gourmet Catering", "desc": "Seafood menus, sushi stations, or signature desserts." },
+        { "title": "Floral Decoration", "desc": "Red rose bouquets and high-end floral arrangements." },
+        { "title": "Live Music", "desc": "Violinist or saxophonist onboard for an unparalleled atmosphere." },
+        { "title": "Photography & Drone", "desc": "Cinematic aerial shots of your special moment." }
+      ]
+    },
+    "support": {
+      "title": "Do you need help planning the perfect moment?",
+      "desc": "Tell us your budget and the occasion, and our Concierge team will recommend the best option from our fleet with fast booking."
+    }
+  },
+  "services": {
+    "hero": {
+      "label": "EXCLUSIVE EXPERIENCES",
+      "title_start": "PREMIER",
+      "title_accent": "PACKAGES",
+      "description": "Discover a collection of curated yacht experiences in Dubai. From corporate events to romantic sunsets, we handle every detail with absolute discretion and luxury."
+    },
+    "fleet": {
+      "tag": "FLEET",
+      "title": "ELITE FLEET",
+      "subtitle": "Majesty, Azimut, and more",
+      "description": "Access the most exclusive yachts in Dubai Marina. From 50ft to 175ft, our fleet is meticulously maintained and ready for your next adventure.",
+      "highlights": ["Professional Crew", "Insurance Included", "Gourmet Catering Available"],
+      "cta": "EXPLORE FLEET",
+      "ctaWa": "I want to know about the fleet"
+    },
+    "birthday": {
+      "tag": "CELEBRATION",
+      "title": "BIRTHDAY PARTY",
+      "subtitle": "The ultimate party",
+      "description": "Celebrate your special day with music, cake, and the iconic Dubai skyline. We handle the decor and energy so you can focus on the fun.",
+      "highlights": ["Luxe Decoration", "Onboard DJ Available", "Custom Cake Options"],
+      "cta": "VIEW PACKAGES",
+      "ctaWa": "I want to book a Birthday Party",
+      "badge": "MOST POPULAR"
+    },
+    "romantic": {
+      "tag": "ROMANCE",
+      "title": "ROMANTIC CRUISE",
+      "subtitle": "Proposal & Anniversaries",
+      "description": "Create an unforgettable memory under the Dubai sunset. Intimate setups with gourmet dining and roses for your special moment.",
+      "highlights": ["Gourmet 3-Course Dinner", "Floral Arrangements", "Violinist Available"],
+      "cta": "VIEW DETAILS",
+      "ctaWa": "I'm looking for a Romantic package"
+    },
+    "corporate": {
+      "tag": "BUSINESS",
+      "title": "CORPORATE EVENTS",
+      "subtitle": "Executive Meetings",
+      "description": "Impress your clients and award your team. High-impact yacht gatherings with premium catering and professional hosting.",
+      "highlights": ["VIP Host Service", "Audiovisual Support", "Branding Options"],
+      "cta": "PLAN EVENT",
+      "ctaWa": "I want to plan a Corporate event"
+    },
+    "dj": {
+      "tag": "ENTERTAINMENT",
+      "title": "PRIVATE DJ",
+      "subtitle": "Live Onboard Mix",
+      "description": "Elevate your yacht experience with a professional DJ. From lounge vibes to high-energy party sets tailored to your crowd.",
+      "highlights": ["Professional Equipment", "Custom Playlists", "All Music Genres"],
+      "cta": "BOOK DJ",
+      "ctaWa": "Interested in a yacht with DJ",
+      "badge": "VIP ADD-ON"
+    },
+    "catering": {
+      "tag": "GASTRONOMY",
+      "title": "YACHT CATERING",
+      "subtitle": "Five-Star Dining",
+      "description": "From live BBQ to gourmet French cuisine. Our chefs prepare fresh, high-end meals directly onboard for the ultimate culinary journey.",
+      "highlights": ["Live Chef Onboard", "Fine Dining Setup", "Bespoke Menus"],
+      "cta": "VIEW MENUS",
+      "ctaWa": "Tell me about catering options"
+    },
+    "watersports": {
+      "tag": "ADVENTURE",
+      "title": "WATER SPORTS",
+      "subtitle": "Adrenaline at Sea",
+      "description": "Jet skis, flyboards, and fun pulls. Add a touch of adventure to your cruise with our high-end equipment and instructors.",
+      "highlights": ["New Equipment", "Certified Instructors", "Photo & Video Cap"],
+      "cta": "SEE ACTIVITIES",
+      "ctaWa": "I want to add water sports"
+    },
+    "bespoke": {
+      "tag": "PREMIER CONCIERGE",
+      "title": "BESPOKE CURATIONS",
+      "subtitle": "Your Vision, Our Execution",
+      "description": "Have a specific request? Our concierge team specializes in the impossible. From red carpets to live performers and total customization.",
+      "highlights": ["Total Personalization", "24/7 Support", "Logistics & Planning"],
+      "ctaWa": "Tell me your idea",
+      "cta": "START PLANNING",
+      "badge": "ULTRA-LUXURY"
+    },
+    "footer_cta": {
+      "label": "READY TO START?",
+      "title": "BOOK YOUR PREMIER EXPERIENCE",
+      "description": "Contact our VIP concierge team now for personalized advice and instant booking.",
+      "cta": "WHATSAPP CONCIERGE",
+      "ctaWa": "I want to start a custom booking"
+    }
+  }
+}

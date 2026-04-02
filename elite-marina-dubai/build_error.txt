@@ -1,0 +1,64 @@
+
+> react-example@0.0.0 build
+> vite build
+
+[36mvite v6.4.1 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 2132 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mregisterSW.js                                [39m[1m[2m  0.13 kB[22m[1m[22m
+[2mdist/[22m[32mmanifest.webmanifest                         [39m[1m[2m  0.17 kB[22m[1m[22m
+[2mdist/[22m[32mindex.html                                   [39m[1m[2m  0.66 kB[22m[1m[22m[2m │ gzip:   0.39 kB[22m
+[2mdist/[22m[35massets/index-BiXitLuG.css                    [39m[1m[2m 81.88 kB[22m[1m[22m[2m │ gzip:  11.63 kB[22m
+[2mdist/[22m[36massets/navigation-2-DsI3smbm.js              [39m[1m[2m  0.32 kB[22m[1m[22m[2m │ gzip:   0.26 kB[22m
+[2mdist/[22m[36massets/clock-CzNgt79y.js                     [39m[1m[2m  0.34 kB[22m[1m[22m[2m │ gzip:   0.27 kB[22m
+[2mdist/[22m[36massets/arrow-right-B0oWivUI.js               [39m[1m[2m  0.34 kB[22m[1m[22m[2m │ gzip:   0.27 kB[22m
+[2mdist/[22m[36massets/mail-BGY8vNeU.js                      [39m[1m[2m  0.39 kB[22m[1m[22m[2m │ gzip:   0.31 kB[22m
+[2mdist/[22m[36massets/music-IeTWph6D.js                     [39m[1m[2m  0.39 kB[22m[1m[22m[2m │ gzip:   0.29 kB[22m
+[2mdist/[22m[36massets/anchor-Cn2PFOKj.js                    [39m[1m[2m  0.39 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
+[2mdist/[22m[36massets/bed-DOCGicGC.js                       [39m[1m[2m  0.41 kB[22m[1m[22m[2m │ gzip:   0.29 kB[22m
+[2mdist/[22m[36massets/map-pin-u8ArKmGB.js                   [39m[1m[2m  0.43 kB[22m[1m[22m[2m │ gzip:   0.33 kB[22m
+[2mdist/[22m[36massets/utensils-CYYJSvI-.js                  [39m[1m[2m  0.43 kB[22m[1m[22m[2m │ gzip:   0.31 kB[22m
+[2mdist/[22m[36massets/award-BsfOSBrQ.js                     [39m[1m[2m  0.44 kB[22m[1m[22m[2m │ gzip:   0.33 kB[22m
+[2mdist/[22m[36massets/glass-water-BXM2BV9c.js               [39m[1m[2m  0.46 kB[22m[1m[22m[2m │ gzip:   0.33 kB[22m
+[2mdist/[22m[36massets/users-N-6sQanT.js                     [39m[1m[2m  0.48 kB[22m[1m[22m[2m │ gzip:   0.33 kB[22m
+[2mdist/[22m[36massets/shield-check-DTIxAZs6.js              [39m[1m[2m  0.49 kB[22m[1m[22m[2m │ gzip:   0.36 kB[22m
+[2mdist/[22m[36massets/camera-BGSGLT0p.js                    [39m[1m[2m  0.51 kB[22m[1m[22m[2m │ gzip:   0.36 kB[22m
+[2mdist/[22m[36massets/gift-wUxgzCSA.js                      [39m[1m[2m  0.53 kB[22m[1m[22m[2m │ gzip:   0.36 kB[22m
+[2mdist/[22m[36massets/utensils-crossed-DyRQ8xSD.js          [39m[1m[2m  0.54 kB[22m[1m[22m[2m │ gzip:   0.37 kB[22m
+[2mdist/[22m[36massets/star-BM2q1Lno.js                      [39m[1m[2m  0.65 kB[22m[1m[22m[2m │ gzip:   0.41 kB[22m
+[2mdist/[22m[36massets/AnimatedTestimonialsList-8Bq6FEjy.js  [39m[1m[2m  0.77 kB[22m[1m[22m[2m │ gzip:   0.48 kB[22m
+[2mdist/[22m[36massets/phone-FSm8kXvf.js                     [39m[1m[2m  0.86 kB[22m[1m[22m[2m │ gzip:   0.44 kB[22m
+[2mdist/[22m[36massets/BirthdayPackagesPage-4WXJqFG8.js      [39m[1m[2m  8.45 kB[22m[1m[22m[2m │ gzip:   3.18 kB[22m
+[2mdist/[22m[36massets/RomanticPackagesPage-Dh4jLjuS.js      [39m[1m[2m 10.14 kB[22m[1m[22m[2m │ gzip:   3.51 kB[22m
+[2mdist/[22m[36massets/ServicesPage-DK5OJdhD.js              [39m[1m[2m 11.44 kB[22m[1m[22m[2m │ gzip:   3.57 kB[22m
+[2mdist/[22m[36massets/CompanyOwnerPage-3N61l3lS.js          [39m[1m[2m 12.67 kB[22m[1m[22m[2m │ gzip:   4.23 kB[22m
+[2mdist/[22m[36massets/YachtDetailsPage-CDsAxRLU.js          [39m[1m[2m 14.51 kB[22m[1m[22m[2m │ gzip:   3.83 kB[22m
+[2mdist/[22m[36massets/PrivateDjPage-C8A_yHCg.js             [39m[1m[2m 15.25 kB[22m[1m[22m[2m │ gzip:   4.59 kB[22m
+[2mdist/[22m[36massets/CorporateEventsPage-DM24HLOx.js       [39m[1m[2m 15.98 kB[22m[1m[22m[2m │ gzip:   5.01 kB[22m
+[2mdist/[22m[36massets/WaterSportsPage-Cw758J0n.js           [39m[1m[2m 16.40 kB[22m[1m[22m[2m │ gzip:   4.71 kB[22m
+[2mdist/[22m[36massets/YachtCateringPage-BkDIR59k.js         [39m[1m[2m 16.94 kB[22m[1m[22m[2m │ gzip:   4.60 kB[22m
+[2mdist/[22m[36massets/FaqPage-DJmuWVoK.js                   [39m[1m[2m 17.06 kB[22m[1m[22m[2m │ gzip:   4.99 kB[22m
+[2mdist/[22m[36massets/HomePage-CesO3YpV.js                  [39m[1m[2m 17.41 kB[22m[1m[22m[2m │ gzip:   5.73 kB[22m
+[2mdist/[22m[36massets/yachts-Cy-vNFTv.js                    [39m[1m[2m 22.14 kB[22m[1m[22m[2m │ gzip:   2.28 kB[22m
+[2mdist/[22m[36massets/index-DMPhZZFK.js                     [39m[1m[2m395.12 kB[22m[1m[22m[2m │ gzip: 126.26 kB[22m
+[32m✓ built in 11.96s[39m
+[31merror during build:
+Error: 
+  Configure "workbox.maximumFileSizeToCacheInBytes" to change the limit: the default value is 2 MiB.
+  Check https://vite-pwa-org.netlify.app/guide/faq.html#missing-assets-from-sw-precache-manifest for more information.
+  Assets exceeding the limit:
+  - owner-profile.png is 4.88 MB, and won't be precached.
+  - assets/videolargo.mp4 is 22.7 MB, and won't be precached.
+  - assets/video-hero.webm is 29.2 MB, and won't be precached.
+
+    at logWorkboxResult (file:///C:/Users/HP%20640%20G4/Downloads/yates/elite-marina-dubai/node_modules/vite-plugin-pwa/dist/chunk-G4TAN34B.js:44:13)
+    at generateServiceWorker (file:///C:/Users/HP%20640%20G4/Downloads/yates/elite-marina-dubai/node_modules/vite-plugin-pwa/dist/index.js:209:3)
+    at async _generateSW (file:///C:/Users/HP%20640%20G4/Downloads/yates/elite-marina-dubai/node_modules/vite-plugin-pwa/dist/index.js:234:5)
+    at async Object.handler (file:///C:/Users/HP%20640%20G4/Downloads/yates/elite-marina-dubai/node_modules/vite-plugin-pwa/dist/index.js:427:13)
+    at async PluginDriver.hookParallel (file:///C:/Users/HP%20640%20G4/Downloads/yates/elite-marina-dubai/node_modules/rollup/dist/es/shared/node-entry.js:22475:17)
+    at async Object.close (file:///C:/Users/HP%20640%20G4/Downloads/yates/elite-marina-dubai/node_modules/rollup/dist/es/shared/node-entry.js:23494:13)
+    at async buildEnvironment (file:///C:/Users/HP%20640%20G4/Downloads/yates/elite-marina-dubai/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:46258:17)
+    at async Object.defaultBuildApp [as buildApp] (file:///C:/Users/HP%20640%20G4/Downloads/yates/elite-marina-dubai/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:46713:5)
+    at async CAC.<anonymous> (file:///C:/Users/HP%20640%20G4/Downloads/yates/elite-marina-dubai/node_modules/vite/dist/node/cli.js:863:7)[39m

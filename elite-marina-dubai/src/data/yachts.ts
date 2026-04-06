@@ -376,34 +376,7 @@ export const yachts: Yacht[] = [
     "cabins": 3,
     "length": "85ft"
   },
-  {
-    "id": "high-seas-yacht-85-feet-1",
-    "name": "High seas yacht 85 feet (1)",
-    "principalImage": "/images/yachts/high-seas-yacht-85-feet-1/principal.jpeg",
-    "galleryImages": [
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-1.jpeg",
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-2.jpeg",
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-3.jpeg",
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-4.jpeg",
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-5.jpeg",
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-6.jpeg",
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-7.jpeg",
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-8.jpeg",
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-9.jpeg",
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-10.jpeg",
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-11.jpeg",
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-12.jpeg",
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-13.jpeg",
-      "/images/yachts/high-seas-yacht-85-feet-1/gallery-14.jpeg"
-    ],
-    "descriptionFile": null,
-    "descriptionText": "High seas yacht 85 feet (1). Price per hour 4700 aed. Capacity 15 pax. Cabins 4. Crew 3.",
-    "pricePerHour": 4700,
-    "pricePerDay": 0,
-    "capacity": 15,
-    "cabins": 4,
-    "length": "85ft"
-  },
+
   {
     "id": "high-seas-yacht-88-feet",
     "name": "High seas yacht 88 feet",
@@ -657,37 +630,7 @@ export const yachts: Yacht[] = [
     "cabins": 3,
     "length": "110ft"
   },
-  {
-    "id": "high-seas-yacht-110-feet-2",
-    "name": "High seas yacht 110 feet (2)",
-    "principalImage": "/images/yachts/high-seas-yacht-110-feet-2/principal.jpeg",
-    "galleryImages": [
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-1.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-2.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-3.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-4.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-5.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-6.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-7.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-8.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-9.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-10.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-11.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-12.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-13.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-14.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-15.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-16.jpeg",
-      "/images/yachts/high-seas-yacht-110-feet-2/gallery-17.jpeg"
-    ],
-    "descriptionFile": null,
-    "descriptionText": "High seas yacht 110 feet (2). Price per hour 6500 aed. Capacity 20 pax. Cabins 5. Crew 4.",
-    "pricePerHour": 6500,
-    "pricePerDay": 0,
-    "capacity": 20,
-    "cabins": 5,
-    "length": "110ft"
-  },
+
   {
     "id": "high-seas-yacht-115-feet",
     "name": "High seas yacht 115 feet",

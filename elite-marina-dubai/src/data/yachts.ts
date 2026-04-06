@@ -212,29 +212,6 @@ export const yachts: Yacht[] = [
     "length": "70ft"
   },
   {
-    "id": "high-seas-yacht-70-feet-1",
-    "name": "High seas yacht 70 feet (1)",
-    "principalImage": "/images/yachts/high-seas-yacht-70-feet-1/principal.png",
-    "galleryImages": [
-      "/images/yachts/high-seas-yacht-70-feet-1/gallery-1.jpeg",
-      "/images/yachts/high-seas-yacht-70-feet-1/gallery-2.jpeg",
-      "/images/yachts/high-seas-yacht-70-feet-1/gallery-3.jpeg",
-      "/images/yachts/high-seas-yacht-70-feet-1/gallery-4.jpeg",
-      "/images/yachts/high-seas-yacht-70-feet-1/gallery-5.jpeg",
-      "/images/yachts/high-seas-yacht-70-feet-1/gallery-6.jpeg",
-      "/images/yachts/high-seas-yacht-70-feet-1/gallery-7.jpeg",
-      "/images/yachts/high-seas-yacht-70-feet-1/gallery-8.jpeg",
-      "/images/yachts/high-seas-yacht-70-feet-1/gallery-9.jpeg"
-    ],
-    "descriptionFile": null,
-    "descriptionText": "High seas yacht 70 feet (1). Price per hour 2900 aed. Capacity 15 pax. Cabins 3. Crew 2.",
-    "pricePerHour": 2900,
-    "pricePerDay": 0,
-    "capacity": 15,
-    "cabins": 3,
-    "length": "70ft"
-  },
-  {
     "id": "high-seas-yacht-70-feet-2",
     "name": "High seas yacht 70 feet (2)",
     "principalImage": "/images/yachts/high-seas-yacht-70-feet-2/principal.jpeg",

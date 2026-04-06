@@ -629,38 +629,6 @@ export const yachts: Yacht[] = [
     "length": "108ft"
   },
   {
-    "id": "high-seas-yacht-108-feet-1",
-    "name": "High seas yacht 108 feet (1)",
-    "principalImage": "/images/yachts/high-seas-yacht-108-feet-1/principal.jpeg",
-    "galleryImages": [
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-1.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-2.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-3.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-4.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-5.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-6.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-7.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-8.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-9.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-10.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-11.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-12.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-13.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-14.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-15.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-16.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-17.jpeg",
-      "/images/yachts/high-seas-yacht-108-feet-1/gallery-18.jpeg"
-    ],
-    "descriptionFile": null,
-    "descriptionText": "High seas yacht 108 feet (1). Price per hour 5200 aed. Capacity 25 pax. Cabins 4. Crew 3. Features a Jacuzzi.",
-    "pricePerHour": 5200,
-    "pricePerDay": 0,
-    "capacity": 25,
-    "cabins": 4,
-    "length": "108ft"
-  },
-  {
     "id": "high-seas-yacht-110-feet",
     "name": "High seas yacht 110 feet",
     "principalImage": "/images/yachts/high-seas-yacht-110-feet/principal.jpeg",

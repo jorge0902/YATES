@@ -34,6 +34,8 @@ function YachtCard({ yacht, t, idx }: { yacht: any, t: any, idx: number, [key: s
                 <img
                     src={images[currentImg]}
                     alt={yacht.name}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out"
                 />
                 
@@ -113,8 +115,16 @@ function YachtCard({ yacht, t, idx }: { yacht: any, t: any, idx: number, [key: s
 
 export function FleetSection() {
     const { t } = useTranslation();
+    const [visibleCount, setVisibleCount] = React.useState(12);
+
     // Only display yachts that have a principal image
     const displayYachts = yachts.filter(yacht => yacht.principalImage !== null);
+    const visibleYachts = displayYachts.slice(0, visibleCount);
+    const hasMore = visibleCount < displayYachts.length;
+
+    const handleShowMore = () => {
+        setVisibleCount(displayYachts.length);
+    };
 
     return (
         <section id="fleet" className="relative w-full min-h-screen py-24 bg-black/60">
@@ -137,10 +147,25 @@ export function FleetSection() {
                 </motion.div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                    {displayYachts.map((yacht, idx) => (
+                    {visibleYachts.map((yacht, idx) => (
                         <YachtCard key={yacht.id} yacht={yacht} t={t} idx={idx} />
                     ))}
                 </div>
+
+                {hasMore && (
+                    <motion.div 
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        className="mt-16 text-center"
+                    >
+                        <button 
+                            onClick={handleShowMore}
+                            className="btn-luxury-gold px-12 py-4 rounded-full text-sm font-bold tracking-[0.2em] uppercase hover:scale-105 transition-all shadow-[0_0_20px_rgba(212,175,55,0.2)]"
+                        >
+                            {t('fleet.show_all_fleet') || 'Show All Fleet'}
+                        </button>
+                    </motion.div>
+                )}
             </div>
         </section>
     );

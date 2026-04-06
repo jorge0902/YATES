@@ -8,6 +8,7 @@ export const WaterShader = memo(() => {
                 loop
                 muted
                 playsInline
+                preload="metadata"
                 poster="/assets/video-poster.jpg"
                 className="absolute inset-0 w-full h-full object-cover"
             >

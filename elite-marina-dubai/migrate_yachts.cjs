@@ -246,12 +246,12 @@ function slugify(text) {
   return text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '');
 }
 
-const finalYachtsList = [];
+let finalYachtsList = [];
 
 // Manually extract length from name
 function getLength(name) {
   const match = name.match(/(\d+)\s*feet/i);
-  return match ? `${match[1]}ft` : 'Unknown length';
+  return match ? (match[1] + "ft") : 'Unknown length';
 }
 
 const sourceFolders = fs.readdirSync(sourceImagesDir);
@@ -260,17 +260,13 @@ for (const y of newYachts) {
   const id = slugify(y.name);
   const length = getLength(y.name);
   
-  // Find matching folder
-  // They might have trailing spaces or similar, so let's match closely
   let matchingFolder = sourceFolders.find(f => {
-    // Exact match ignoring case and multiple spaces
     const cleanF = f.toLowerCase().replace(/\s+/g, ' ').trim();
     const cleanY = y.name.toLowerCase().replace(/\s+/g, ' ').trim();
     return cleanF === cleanY;
   });
   
   if (!matchingFolder) {
-    // Try without numbers in parens for loose match if not found exactly
     const baseName = y.name.replace(/\(\d+\)/g, '').trim().toLowerCase().replace(/\s+/g, ' ');
     matchingFolder = sourceFolders.find(f => {
       const cleanF = f.replace(/\(\d+\)/g, '').trim().toLowerCase().replace(/\s+/g, ' ');
@@ -288,22 +284,28 @@ for (const y of newYachts) {
       if (!fs.existsSync(destDir)) fs.mkdirSync(destDir, { recursive: true });
       
       const files = fs.readdirSync(srcDirPath)
-        .filter(f => f.match(/\.(jpg|jpeg|png|webp)$/i))
-        .sort(); // sort alphabetically
+        .filter(f => f.match(/\.(jpg|jpeg|png|webp)$/i));
         
       if (files.length > 0) {
-        // First one is principal
-        const principalSrc = path.join(srcDirPath, files[0]);
-        const extType = path.extname(files[0]);
+        // Find best principal image
+        let principalFile = files.find(f => path.parse(f).name.toLowerCase() === 'principal');
+        if (!principalFile) {
+            // Fallback to first image if no "principal" named file exists
+            principalFile = files.sort()[0];
+        }
+
+        const principalSrc = path.join(srcDirPath, principalFile);
+        const extType = path.extname(principalFile);
         const principalDestName = "principal" + extType;
         fs.copyFileSync(principalSrc, path.join(destDir, principalDestName));
         principalImage = "/images/yachts/" + id + "/" + principalDestName;
         
-        // Rest are gallery
-        for (let j = 1; j < files.length; j++) {
-          const srcFile = path.join(srcDirPath, files[j]);
-          const ext = path.extname(files[j]);
-          const destName = "gallery-" + j + ext;
+        // Gallery images (the rest)
+        const otherFiles = files.filter(f => f !== principalFile).sort();
+        for (let j = 0; j < otherFiles.length; j++) {
+          const srcFile = path.join(srcDirPath, otherFiles[j]);
+          const ext = path.extname(otherFiles[j]);
+          const destName = "gallery-" + (j + 1) + ext;
           fs.copyFileSync(srcFile, path.join(destDir, destName));
           galleryImages.push("/images/yachts/" + id + "/" + destName);
         }
@@ -311,7 +313,6 @@ for (const y of newYachts) {
     }
   }
 
-  // Generate description text
   let desc = y.name + ". Price per hour " + y.pricePerHour + " aed. Capacity " + y.capacity + " pax. Cabins " + y.cabins + ". Crew " + y.crew + ".";
   if (y.hasJacuzzi) desc += " Features a Jacuzzi.";
 
@@ -330,9 +331,61 @@ for (const y of newYachts) {
   });
 }
 
-// Add the original 61, 48, and 52 feet yachts WITH MODIFICATIONS
-// I need to extract them from the old yachts.ts, but wait! I already have their data from earlier. 
-// I'll just hardcode them based on the views.
+// Add original yachts with modifications
+const old48 = {
+    id: "big-boy-yacht-48",
+    name: "High Seas Yacht 48",
+    principalImage: "/images/yachts/big-boy-yacht-48/principal.jpeg",
+    galleryImages: [
+      "/images/yachts/big-boy-yacht-48/gallery-1773497100074.jpeg",
+      "/images/yachts/big-boy-yacht-48/gallery-1773497100614.jpeg",
+      "/images/yachts/big-boy-yacht-48/gallery-1773497100731.jpeg",
+      "/images/yachts/big-boy-yacht-48/gallery-1773497099990.jpeg",
+      "/images/yachts/big-boy-yacht-48/gallery-1773497100474.jpeg",
+      "/images/yachts/big-boy-yacht-48/gallery-1773497100588.jpeg",
+      "/images/yachts/big-boy-yacht-48/gallery-1773497100191.jpeg",
+      "/images/yachts/big-boy-yacht-48/gallery-1773497100381.jpeg",
+      "/images/yachts/big-boy-yacht-48/gallery-1773497100080.jpeg",
+      "/images/yachts/big-boy-yacht-48/gallery-1773497100465.jpeg",
+      "/images/yachts/big-boy-yacht-48/gallery-1773497100147.jpeg"
+    ],
+    descriptionFile: "High Seas Yacht 48 feet.docx",
+    descriptionText: "High Seas Yacht 48 feet. Price per hour 550 aed. Cabins 2. Captain and crew 2.",
+    pricePerHour: 550,
+    pricePerDay: 5000,
+    capacity: 10,
+    cabins: 2,
+    length: "48ft"
+};
+
+const old52 = {
+    id: "big-boy-yacht-52-feet",
+    name: "High Seas Yacht 52 feet",
+    principalImage: "/images/yachts/big-boy-yacht-52-feet/principal.jpeg",
+    galleryImages: [
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100825.jpeg",
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100423.jpeg",
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100308.jpeg",
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100314.jpeg",
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100212.jpeg",
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100526.jpeg",
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100661.jpeg",
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100220.jpeg",
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100422.jpeg",
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100331.jpeg",
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100297.jpeg",
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100694.jpeg",
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100087.jpeg",
+      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100823.jpeg"
+    ],
+    descriptionFile: "High Seas Yacht 52 feet.docx",
+    descriptionText: "High Seas Yacht 52 feet. Price per hour 650 aed. Capacity 3 pax. Cabins 3.",
+    pricePerHour: 650,
+    pricePerDay: 5000,
+    capacity: 3,
+    cabins: 3,
+    length: "52ft"
+};
 
 const old61 = {
     id: "big-boy-yacht-61-feet",
@@ -358,65 +411,35 @@ const old61 = {
     length: "61ft"
 };
 
-const old48 = {
-    id: "big-boy-yacht-48",
-    name: "High Seas Yacht 48",
-    principalImage: "/images/yachts/big-boy-yacht-48/principal.jpeg",
-    galleryImages: [
-      "/images/yachts/big-boy-yacht-48/gallery-1773497100074.jpeg",
-      "/images/yachts/big-boy-yacht-48/gallery-1773497100614.jpeg",
-      "/images/yachts/big-boy-yacht-48/gallery-1773497100731.jpeg",
-      "/images/yachts/big-boy-yacht-48/gallery-1773497099990.jpeg",
-      "/images/yachts/big-boy-yacht-48/gallery-1773497100474.jpeg",
-      "/images/yachts/big-boy-yacht-48/gallery-1773497100588.jpeg",
-      "/images/yachts/big-boy-yacht-48/gallery-1773497100191.jpeg",
-      "/images/yachts/big-boy-yacht-48/gallery-1773497100381.jpeg",
-      "/images/yachts/big-boy-yacht-48/gallery-1773497100080.jpeg",
-      "/images/yachts/big-boy-yacht-48/gallery-1773497100465.jpeg",
-      "/images/yachts/big-boy-yacht-48/gallery-1773497100147.jpeg"
-    ],
-    descriptionFile: "High Seas Yacht 48 feet.docx",
-    descriptionText: "High Seas Yacht 48 feet. Price per hour 550 aed. Cabins 2. Captain and crew 2.",
-    pricePerHour: 550,
-    pricePerDay: 5000,
-    capacity: 10,
-    cabins: 2, // MODIFIED
-    length: "48ft"
-};
-
-const old52 = {
-    id: "big-boy-yacht-52-feet",
-    name: "High Seas Yacht 52 feet",
-    principalImage: "/images/yachts/big-boy-yacht-52-feet/principal.jpeg",
-    galleryImages: [
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100825.jpeg",
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100423.jpeg",
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100308.jpeg",
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100314.jpeg",
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100212.jpeg",
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100526.jpeg",
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100661.jpeg",
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100220.jpeg",
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100422.jpeg",
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100331.jpeg",
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100297.jpeg",
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100694.jpeg",
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100087.jpeg",
-      "/images/yachts/big-boy-yacht-52-feet/gallery-1773497100823.jpeg"
-    ],
-    descriptionFile: "High Seas Yacht 52 feet.docx",
-    descriptionText: "High Seas Yacht 52 feet. Price per hour 650 aed. Capacity 3 pax. Cabins 3.", // MODIFIED
-    pricePerHour: 650, // MODIFIED
-    pricePerDay: 5000,
-    capacity: 3, // MODIFIED
-    cabins: 3, // MODIFIED
-    length: "52ft"
-};
-
 finalYachtsList.push(old48, old52, old61);
 
-const tsContent = "export interface Yacht {\\n  id: string;\\n  name: string;\\n  principalImage: string | null;\\n  galleryImages: string[];\\n  descriptionFile: string | null;\\n  descriptionText: string;\\n  pricePerHour: number;\\n  pricePerDay: number;\\n  capacity: number;\\n  cabins: number;\\n  length: string;\\n}\\n\\nexport const yachts: Yacht[] = " + JSON.stringify(finalYachtsList, null, 2) + ";\\n";
+// Sort numerically by length
+finalYachtsList.sort((a, b) => {
+    const lenA = parseInt(a.length) || 0;
+    const lenB = parseInt(b.length) || 0;
+    if (lenA !== lenB) return lenA - lenB;
+    // If equal length, sort by name
+    return a.name.localeCompare(b.name);
+});
+
+const tsContent = [
+  "export interface Yacht {",
+  "  id: string;",
+  "  name: string;",
+  "  principalImage: string | null;",
+  "  galleryImages: string[];",
+  "  descriptionFile: string | null;",
+  "  descriptionText: string;",
+  "  pricePerHour: number;",
+  "  pricePerDay: number;",
+  "  capacity: number;",
+  "  cabins: number;",
+  "  length: string;",
+  "}",
+  "",
+  "export const yachts: Yacht[] = " + JSON.stringify(finalYachtsList, null, 2) + ";"
+].join("\n") + "\n";
 
 fs.writeFileSync(yachtsTsPath, tsContent, 'utf8');
 
-console.log("Migration complete. Extracted", finalYachtsList.length, "yachts.");
+console.log("Migration complete. Sorted", finalYachtsList.length, "yachts.");

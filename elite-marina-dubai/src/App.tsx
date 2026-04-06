@@ -2,6 +2,7 @@ import React, { Suspense, lazy, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { RootLayout } from "./layouts/RootLayout";
+import { Preloader } from "./components/Preloader";
 
 // Lazy-loaded pages with named export handling
 const HomePage = lazy(() => import("./pages/HomePage").then(m => ({ default: m.HomePage })));
@@ -26,10 +27,12 @@ export default function App() {
   }, [i18n.language]);
 
   return (
-    <BrowserRouter>
-      <Suspense fallback={<div className="min-h-screen bg-black" />}>
-        <Routes>
-          <Route element={<RootLayout />}>
+    <>
+      <Preloader />
+      <BrowserRouter>
+        <Suspense fallback={<div className="min-h-screen bg-black" />}>
+          <Routes>
+            <Route element={<RootLayout />}>
             <Route path="/" element={<HomePage />} />
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/services/private-dj" element={<PrivateDjPage />} />
@@ -46,5 +49,6 @@ export default function App() {
         </Routes>
       </Suspense>
     </BrowserRouter>
+    </>
   );
 }

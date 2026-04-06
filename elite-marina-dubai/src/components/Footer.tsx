@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-24">
           <div>
             <div className="flex flex-col items-start gap-3 text-white mb-6">
-              <img src="/logo-nuevo.png" alt="High Seas Yacht Rental" className="h-20 w-auto object-contain drop-shadow-[0_0_10px_rgba(255,120,0,0.45)]" />
+              <img src="/logo-oro.png" alt="High Seas Yacht Rental" className="h-20 w-auto object-contain drop-shadow-[0_0_10px_rgba(255,120,0,0.45)]" />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm mt-4">
               {t('footer.description')}

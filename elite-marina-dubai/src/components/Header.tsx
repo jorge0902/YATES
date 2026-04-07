@@ -70,7 +70,7 @@ export function Header() {
         {/* Logo */}
         <PrefetchLink to="/" className="flex items-center shrink-0">
           <img
-            src="/logo-oro.png"
+            src="/HIGSEAS.png"
             alt="High Seas Yacht Rental"
             className="h-16 w-auto object-contain drop-shadow-[0_0_10px_rgba(255,120,0,0.45)]"
           />
@@ -278,7 +278,7 @@ export function Header() {
             >
               {/* Close Button at top corner */}
               <div className="flex items-center justify-between p-6 mt-4">
-                <img src="/logo-oro.png" alt="Logo" className="h-10 w-auto opacity-80" />
+                <img src="/HIGSEAS.png" alt="Logo" className="h-10 w-auto opacity-80" />
                 <button 
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/60 hover:text-white transition-all"
@@ -466,7 +466,7 @@ export function Header() {
             >
               {/* Sidebar Header */}
               <div className="flex items-center justify-between p-6 bg-black border-b border-white/5">
-                <img src="/logo-oro.png" alt="Logo" className="h-10 w-auto" />
+                <img src="/HIGSEAS.png" alt="Logo" className="h-10 w-auto" />
                 <button 
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white"

@@ -37,7 +37,7 @@ export function CompanyOwnerSection() {
           />
           
           <div className="absolute bottom-6 left-6 z-20 pointer-events-none">
-             <img src="/logo-oro.png" alt="High Seas Yacht" className="h-10 opacity-50 drop-shadow-md" />
+             <img src="/HIGSEAS.png" alt="High Seas Yacht" className="h-10 opacity-50 drop-shadow-md" />
           </div>
         </motion.div>
 

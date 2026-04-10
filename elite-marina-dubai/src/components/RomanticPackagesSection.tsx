@@ -11,7 +11,7 @@ export function RomanticPackagesSection() {
   const valueIcons = [ShieldCheck, MapPin, Sparkles];
 
   const packages = t("romantic_packages.packages.items", { returnObjects: true }) as any[];
-  const packageImages = ["/corp-event-2.png", "/corp-event-1.png", "/corp-event-3.png"];
+  const packageImages = ["/assets/fiesta/romance-1.jpg", "/assets/fiesta/romance-2.jpg", "/assets/fiesta/romance-3.jpg"];
 
   const addons = t("romantic_packages.addons.items", { returnObjects: true }) as any[];
   const addonIcons = [Utensils, Heart, Music, Camera];

@@ -17,11 +17,11 @@ export function YachtCateringSection() {
 
   // 2. Visual Grid Categories
   const GRID_ITEMS = [
-    { title: t("catering.grid.canapes.title"), desc: t("catering.grid.canapes.desc"), image: "/assets/catering/canapes.png", colSpan: 2 },
-    { title: t("catering.grid.sushi.title"), desc: t("catering.grid.sushi.desc"), image: "/assets/catering/sushi.png", colSpan: 1 },
-    { title: t("catering.grid.bbq_setup.title"), desc: t("catering.grid.bbq_setup.desc"), image: "/assets/catering/bbq.png", colSpan: 1 },
-    { title: t("catering.grid.desserts.title"), desc: t("catering.grid.desserts.desc"), image: "/assets/yachts/exclusivity-2.jpeg", colSpan: 1 },
-    { title: t("catering.grid.fruits.title"), desc: t("catering.grid.fruits.desc"), image: "/assets/yachts/exclusivity-3.jpeg", colSpan: 1 },
+    { title: t("catering.grid.canapes.title"), desc: t("catering.grid.canapes.desc"), image: "/assets/fiesta/catering-1.jpg", colSpan: 2 },
+    { title: t("catering.grid.sushi.title"), desc: t("catering.grid.sushi.desc"), image: "/assets/fiesta/catering-2.jpg", colSpan: 1 },
+    { title: t("catering.grid.bbq_setup.title"), desc: t("catering.grid.bbq_setup.desc"), image: "/assets/fiesta/catering-3.jpg", colSpan: 1 },
+    { title: t("catering.grid.desserts.title"), desc: t("catering.grid.desserts.desc"), image: "/assets/fiesta/hero-fiesta-1.jpg", colSpan: 1 },
+    { title: t("catering.grid.fruits.title"), desc: t("catering.grid.fruits.desc"), image: "/assets/fiesta/hero-fiesta-2.jpg", colSpan: 1 },
   ];
 
   // 3. Value Props
@@ -39,7 +39,7 @@ export function YachtCateringSection() {
       idealFor: t("catering.menus.platters.ideal_for"),
       includes: t("catering.menus.platters.includes"),
       button: t("catering.menus.platters.button"),
-      image: "/assets/catering/canapes.png"
+      image: "/assets/fiesta/catering-1.jpg"
     },
     {
       title: t("catering.menus.sushi.title"),
@@ -47,7 +47,7 @@ export function YachtCateringSection() {
       idealFor: t("catering.menus.sushi.ideal_for"),
       includes: t("catering.menus.sushi.includes"),
       button: t("catering.menus.sushi.button"),
-      image: "/assets/catering/sushi.png"
+      image: "/assets/fiesta/catering-2.jpg"
     },
     {
       title: t("catering.menus.bbq.title"),
@@ -55,7 +55,7 @@ export function YachtCateringSection() {
       idealFor: t("catering.menus.bbq.ideal_for"),
       includes: t("catering.menus.bbq.includes"),
       button: t("catering.menus.bbq.button"),
-      image: "/assets/catering/bbq.png"
+      image: "/assets/fiesta/catering-3.jpg"
     }
   ];
 

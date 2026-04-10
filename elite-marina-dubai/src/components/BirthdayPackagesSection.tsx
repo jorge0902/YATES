@@ -13,7 +13,7 @@ export function BirthdayPackagesSection() {
       idealFor: t("birthday.packages.marina_party.ideal_for"),
       highlights: t("birthday.packages.marina_party.highlights"),
       includes: t("birthday.packages.marina_party.includes", { returnObjects: true }) as string[],
-      image: "/pkg-birthday-1.png",
+      image: "/assets/fiesta/celebration-1.jpg",
     },
     {
       title: t("birthday.packages.sunset_cruise.title"),
@@ -21,7 +21,7 @@ export function BirthdayPackagesSection() {
       idealFor: t("birthday.packages.sunset_cruise.ideal_for"),
       highlights: t("birthday.packages.sunset_cruise.highlights"),
       includes: t("birthday.packages.sunset_cruise.includes", { returnObjects: true }) as string[],
-      image: "/pkg-birthday-2.png",
+      image: "/assets/fiesta/celebration-2.jpg",
     },
     {
       title: t("birthday.packages.premier_vip.title"),
@@ -29,7 +29,7 @@ export function BirthdayPackagesSection() {
       idealFor: t("birthday.packages.premier_vip.ideal_for"),
       highlights: t("birthday.packages.premier_vip.highlights"),
       includes: t("birthday.packages.premier_vip.includes", { returnObjects: true }) as string[],
-      image: "/pkg-birthday-3.png",
+      image: "/assets/fiesta/celebration-3.jpg",
     }
   ];
 

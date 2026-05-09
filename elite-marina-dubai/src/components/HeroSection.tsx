@@ -18,18 +18,18 @@ export function HeroSection() {
       ></div>
 
       {/* Content */}
-      <div className="relative z-10 flex h-full items-center px-8 md:px-16 lg:px-24">
-        <div className="max-w-3xl mt-16 w-full flex flex-col justify-between h-[75%] md:h-auto md:block">
+      <div className="relative z-10 flex h-full items-center px-8 md:px-16 lg:px-24 pt-20 md:pt-0">
+        <div className="max-w-3xl w-full flex flex-col justify-center h-[85%] md:h-auto md:block">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="flex items-center gap-2 text-white mb-4 absolute top-28 left-8 md:static"
+            className="flex items-center gap-2 text-white mb-4 md:mb-4"
           >
             <MapPin className="h-5 w-5 text-[var(--color-accent)]" />
             <span className="text-sm font-bold tracking-widest uppercase">{t('hero.subtitle')}</span>
           </motion.div>
 
-          <div className="absolute bottom-16 left-8 right-8 md:static md:pr-0">
+          <div className="md:pr-0">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

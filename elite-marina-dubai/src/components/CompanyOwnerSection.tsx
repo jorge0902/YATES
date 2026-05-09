@@ -31,7 +31,7 @@ export function CompanyOwnerSection() {
           className="relative group rounded-[2rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(0,0,0,0.8)]"
         >
           <img
-            src="/owner-profile.png"
+            src="/assets/visionary-new.jpeg"
             alt={`${t("owner.name")} - Founder`}
             className="w-full h-auto object-cover object-top grayscale-[15%] contrast-[1.15] brightness-90 saturate-[0.85] transition-transform duration-1000 group-hover:scale-105"
           />

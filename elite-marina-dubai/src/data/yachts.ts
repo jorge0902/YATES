@@ -131,40 +131,7 @@ export const yachts: Yacht[] = [
     "cabins": 2,
     "length": "58ft"
   },
-  {
-    "id": "high-seas-yacht-58-feet-2",
-    "name": "High seas yacht 58 feet (2)",
-    "principalImage": "/images/yachts/high-seas-yacht-58-feet-2/principal.jpeg",
-    "galleryImages": [
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-1.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-2.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-3.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-4.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-5.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-6.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-7.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-8.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-9.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-10.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-11.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-12.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-13.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-14.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-15.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-16.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-17.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-18.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-19.jpeg",
-      "/images/yachts/high-seas-yacht-58-feet-2/gallery-20.jpeg"
-    ],
-    "descriptionFile": null,
-    "descriptionText": "High seas yacht 58 feet (2). Price per hour 2500 aed. Capacity 8 pax. Cabins 2. Crew 2.",
-    "pricePerHour": 2500,
-    "pricePerDay": 0,
-    "capacity": 8,
-    "cabins": 2,
-    "length": "58ft"
-  },
+
   {
     "id": "big-boy-yacht-61-feet",
     "name": "High Seas Yacht 61 feet",

@@ -12,14 +12,16 @@ i18n
   .init({
     resources: {
       en: { translation: en },
-      es: { translation: es },
       ar: { translation: ar },
+      es: { translation: es },
     },
     // The language to use if translations in user language are not available
     fallbackLng: 'en',
+    // Default language if no saved preference
+    lng: localStorage.getItem('i18nextLng') || 'en',
     // Order and from where user language should be detected
     detection: {
-      order: ['localStorage'],
+      order: ['localStorage', 'navigator'],
       caches: ['localStorage'],
     },
     interpolation: {

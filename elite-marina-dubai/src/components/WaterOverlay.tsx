@@ -149,10 +149,10 @@ export const WaterOverlay = () => {
       ref={canvasRef}
       style={{
         position: "fixed",
-        top: 0,
+        top: "-10vh",
         left: 0,
         width: "100vw",
-        height: "100dvh",
+        height: "120vh",
         zIndex: 50,
         pointerEvents: "none",
         mixBlendMode: "screen",

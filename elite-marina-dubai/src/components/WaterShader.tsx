@@ -2,7 +2,7 @@ import React, { memo } from "react";
 
 export const WaterShader = memo(() => {
     return (
-        <div className="fixed top-0 left-0 w-full h-[100dvh] z-[-1] bg-black overflow-hidden pointer-events-none">
+        <div className="fixed -top-[10vh] left-0 w-full h-[120vh] z-[-1] bg-black overflow-hidden pointer-events-none">
             <video
                 autoPlay
                 loop

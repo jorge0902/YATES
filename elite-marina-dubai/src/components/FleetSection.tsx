@@ -30,13 +30,15 @@ function YachtCard({ yacht, t, idx }: { yacht: any, t: any, idx: number, [key: s
             className="group relative flex flex-col h-full bg-black/40 backdrop-blur-[20px] rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_15px_rgba(255,255,255,0.05)] hover:border-white/20 transition-all duration-300"
         >
             {/* Yacht Image with Navigation */}
-            <div className="relative h-56 w-full overflow-hidden">
+            <div className="relative h-56 w-full overflow-hidden bg-zinc-900">
+                {/* Pulse placeholder while loading */}
+                <div className="absolute inset-0 animate-pulse bg-zinc-800" />
                 <img
                     src={images[currentImg]}
                     alt={yacht.name}
-                    loading="lazy"
+                    loading={currentImg === 0 ? "eager" : "lazy"}
                     decoding="async"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out"
+                    className="absolute inset-0 w-full h-full object-cover z-0 group-hover:scale-105 transition-transform duration-700 ease-in-out"
                 />
                 
                 {/* Navigation Arrows (Visible on hover) */}

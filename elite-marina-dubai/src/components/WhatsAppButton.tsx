@@ -1,6 +1,6 @@
 import React from "react";
 import { MessageCircle } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 export function WhatsAppButton() {

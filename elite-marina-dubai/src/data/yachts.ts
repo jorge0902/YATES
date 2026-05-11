@@ -466,7 +466,6 @@ export const yachts: Yacht[] = [
     "name": "High seas yacht 95 feet",
     "principalImage": "/images/yachts/high-seas-yacht-95-feet/principal.png",
     "galleryImages": [
-      "/images/yachts/high-seas-yacht-95-feet/gallery-1.jpeg",
       "/images/yachts/high-seas-yacht-95-feet/gallery-2.jpeg",
       "/images/yachts/high-seas-yacht-95-feet/gallery-3.jpeg",
       "/images/yachts/high-seas-yacht-95-feet/gallery-4.jpeg",

@@ -15,13 +15,12 @@ export function YachtCateringSection() {
     { label: t("catering.categories.beverage"), icon: Wine },
   ];
 
-  // 2. Visual Grid Categories
   const GRID_ITEMS = [
-    { title: t("catering.grid.canapes.title"), desc: t("catering.grid.canapes.desc"), image: "/assets/fiesta/catering-1.jpg", colSpan: 2 },
-    { title: t("catering.grid.sushi.title"), desc: t("catering.grid.sushi.desc"), image: "/assets/fiesta/catering-2.jpg", colSpan: 1 },
-    { title: t("catering.grid.bbq_setup.title"), desc: t("catering.grid.bbq_setup.desc"), image: "/assets/fiesta/catering-3.jpg", colSpan: 1 },
-    { title: t("catering.grid.desserts.title"), desc: t("catering.grid.desserts.desc"), image: "/assets/fiesta/hero-fiesta-1.jpg", colSpan: 1 },
-    { title: t("catering.grid.fruits.title"), desc: t("catering.grid.fruits.desc"), image: "/assets/fiesta/hero-fiesta-2.jpg", colSpan: 1 },
+    { title: t("catering.grid.canapes.title"), desc: t("catering.grid.canapes.desc"), image: "/assets/catering/cat-1.jpeg", colSpan: 2 },
+    { title: t("catering.grid.sushi.title"), desc: t("catering.grid.sushi.desc"), image: "/assets/catering/cat-2.jpeg", colSpan: 1 },
+    { title: t("catering.grid.bbq_setup.title"), desc: t("catering.grid.bbq_setup.desc"), image: "/assets/catering/cat-3.jpeg", colSpan: 1 },
+    { title: t("catering.grid.desserts.title"), desc: t("catering.grid.desserts.desc"), image: "/assets/catering/cat-4.jpeg", colSpan: 1 },
+    { title: t("catering.grid.fruits.title"), desc: t("catering.grid.fruits.desc"), image: "/assets/catering/cat-5.jpeg", colSpan: 1 },
   ];
 
   // 3. Value Props
@@ -31,7 +30,6 @@ export function YachtCateringSection() {
     { title: t("catering.value_props.professional.title"), desc: t("catering.value_props.professional.desc"), icon: Utensils }
   ];
 
-  // 4. Menus
   const MENUS = [
     {
       title: t("catering.menus.platters.title"),
@@ -39,7 +37,7 @@ export function YachtCateringSection() {
       idealFor: t("catering.menus.platters.ideal_for"),
       includes: t("catering.menus.platters.includes"),
       button: t("catering.menus.platters.button"),
-      image: "/assets/fiesta/catering-1.jpg"
+      image: "/assets/catering/cat-6.jpeg"
     },
     {
       title: t("catering.menus.sushi.title"),
@@ -47,7 +45,7 @@ export function YachtCateringSection() {
       idealFor: t("catering.menus.sushi.ideal_for"),
       includes: t("catering.menus.sushi.includes"),
       button: t("catering.menus.sushi.button"),
-      image: "/assets/fiesta/catering-2.jpg"
+      image: "/assets/catering/cat-7.jpeg"
     },
     {
       title: t("catering.menus.bbq.title"),
@@ -55,7 +53,7 @@ export function YachtCateringSection() {
       idealFor: t("catering.menus.bbq.ideal_for"),
       includes: t("catering.menus.bbq.includes"),
       button: t("catering.menus.bbq.button"),
-      image: "/assets/fiesta/catering-3.jpg"
+      image: "/assets/catering/cat-8.jpeg"
     }
   ];
 

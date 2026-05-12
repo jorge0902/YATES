@@ -29,7 +29,8 @@ export function Footer() {
           <div>
             <h4 className="font-bold uppercase tracking-widest mb-6 text-sm">{t('footer.connect')}</h4>
             <ul className="space-y-4 text-gray-400 text-sm">
-              <li><a href="https://www.instagram.com/yachts_rental_dubai_dxb?igsh=eDV6YzJhbDJvbXFu" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-accent)] transition-colors">Instagram</a></li>
+              <li><a href="https://www.instagram.com/boats_rental_dubai__?igsh=YmR1YjdudmJwZTVn&utm_source=qr" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-accent)] transition-colors">Instagram</a></li>
+              <li><a href="https://www.facebook.com/share/1BCCXfV9GG/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-accent)] transition-colors">Facebook</a></li>
               <li><a href="https://www.tiktok.com/@yacht_charter_dubai?_r=1&_t=ZS-950tXGnjkWr" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-accent)] transition-colors">TikTok</a></li>
             </ul>
           </div>

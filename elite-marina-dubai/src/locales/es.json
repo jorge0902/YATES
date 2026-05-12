@@ -131,6 +131,10 @@
       },
       "add_to_charter": "Añadir al Alquiler"
     },
+    "gallery": {
+      "tag": "EXPERIENCIA VISUAL",
+      "title": "GALERÍA DE DEPORTES ACUÁTICOS"
+    },
     "expectations": {
       "title": "QUÉ ESPERAR",
       "safety": { "title": "SEGURIDAD Y BRIEFING", "desc": "Proporcionamos todo el equipo de seguridad esencial e instrucciones rápidas antes de empezar." },

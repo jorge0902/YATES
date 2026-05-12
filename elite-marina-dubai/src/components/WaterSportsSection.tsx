@@ -20,39 +20,41 @@ export function WaterSportsSection() {
       title: t("watersports.catalog.activities.jetski.title"),
       subtitle: t("watersports.catalog.activities.jetski.subtitle"),
       desc: t("watersports.catalog.activities.jetski.desc"),
-      image: "/assets/watersports/jetski.png"
+      image: "/assets/watersports/ws-1.jpeg"
     },
     {
       title: t("watersports.catalog.activities.seabob.title"),
       subtitle: t("watersports.catalog.activities.seabob.subtitle"),
       desc: t("watersports.catalog.activities.seabob.desc"),
-      image: "/assets/watersports/seabob.png"
+      image: "/assets/watersports/ws-2.jpeg"
     },
     {
       title: t("watersports.catalog.activities.wakeboarding.title"),
       subtitle: t("watersports.catalog.activities.wakeboarding.subtitle"),
       desc: t("watersports.catalog.activities.wakeboarding.desc"),
-      image: "/assets/watersports/wakeboard.png"
+      image: "/assets/watersports/ws-3.jpeg"
     },
     {
       title: t("watersports.catalog.activities.banana.title"),
       subtitle: t("watersports.catalog.activities.banana.subtitle"),
       desc: t("watersports.catalog.activities.banana.desc"),
-      image: "/assets/yachts/exclusivity-2.jpeg"
+      image: "/assets/watersports/ws-4.jpeg"
     },
     {
       title: t("watersports.catalog.activities.donut.title"),
       subtitle: t("watersports.catalog.activities.donut.subtitle"),
       desc: t("watersports.catalog.activities.donut.desc"),
-      image: "/assets/yachts/exclusivity-3.jpeg"
+      image: "/assets/watersports/ws-5.jpeg"
     },
     {
       title: t("watersports.catalog.activities.paddle.title"),
       subtitle: t("watersports.catalog.activities.paddle.subtitle"),
       desc: t("watersports.catalog.activities.paddle.desc"),
-      image: "/assets/yachts/exclusivity-1.jpeg"
+      image: "/assets/watersports/ws-6.jpeg"
     }
   ];
+
+  const GALLERY_IMAGES = Array.from({ length: 19 }, (_, i) => `/assets/watersports/ws-${i + 1}.jpeg`);
 
   const WHAT_TO_EXPECT = [
     { title: t("watersports.expectations.safety.title"), desc: t("watersports.expectations.safety.desc"), icon: ShieldCheck },
@@ -201,6 +203,45 @@ export function WaterSportsSection() {
                 <p className="text-white/60 font-sans font-light text-[13px] leading-relaxed px-4 max-w-[280px]">
                   {item.desc}
                 </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* NEW: Experience Gallery Section */}
+      <section className="relative w-full py-24 px-6 xl:px-12 z-10 overflow-hidden">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <span className="font-sans text-[11px] md:text-[13px] tracking-[0.4em] text-[var(--color-accent)] uppercase font-bold block mb-4">
+              {t("watersports.gallery.tag", "Visual Experience")}
+            </span>
+            <h2 className="font-serif text-3xl md:text-4xl text-white font-light uppercase tracking-[0.15em]">
+              {t("watersports.gallery.title", "Water Sports Gallery")}
+            </h2>
+          </div>
+
+          <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4">
+            {GALLERY_IMAGES.map((img, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: (idx % 5) * 0.1 }}
+                className="relative break-inside-avoid rounded-xl overflow-hidden border border-white/10 group shadow-2xl"
+              >
+                <img 
+                  src={img} 
+                  alt={`Water Sports Experience ${idx + 1}`} 
+                  className="w-full h-auto object-cover transform group-hover:scale-110 transition-transform duration-700 ease-out"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-full bg-[var(--color-accent)]/20 backdrop-blur-md border border-[var(--color-accent)]/50 flex items-center justify-center">
+                    <Waves className="w-5 h-5 text-white" />
+                  </div>
+                </div>
               </motion.div>
             ))}
           </div>

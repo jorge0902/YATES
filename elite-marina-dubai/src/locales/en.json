@@ -131,6 +131,10 @@
       },
       "add_to_charter": "Add to Charter"
     },
+    "gallery": {
+      "tag": "VISUAL EXPERIENCE",
+      "title": "WATER SPORTS GALLERY"
+    },
     "expectations": {
       "title": "WHAT TO EXPECT",
       "safety": { "title": "SAFETY & BRIEFING", "desc": "We provide all essential safety gear and quick instructions before starting." },

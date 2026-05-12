@@ -212,12 +212,20 @@ export function Header() {
           {/* Social Icons */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="https://www.instagram.com/yachts_rental_dubai_dxb?igsh=eDV6YzJhbDJvbXFu"
+              href="https://www.instagram.com/boats_rental_dubai__?igsh=YmR1YjdudmJwZTVn&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-white/5 backdrop-blur-md border border-white/10 flex items-center justify-center text-white hover:bg-white/10 hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-all"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a
+              href="https://www.facebook.com/share/1BCCXfV9GG/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-full bg-white/5 backdrop-blur-md border border-white/10 flex items-center justify-center text-white hover:bg-white/10 hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-all"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
             </a>
             <a
               href="https://www.tiktok.com/@yacht_charter_dubai?_r=1&_t=ZS-950tXGnjkWr"
@@ -406,8 +414,11 @@ export function Header() {
                     SÍGUENOS EN REDES
                   </span>
                   <div className="flex items-center gap-5">
-                    <a href="https://www.instagram.com/yachts_rental_dubai_dxb?igsh=eDV6YzJhbDJvbXFu" target="_blank" rel="noopener noreferrer" className="w-11 h-11 rounded-full bg-white/5 flex items-center justify-center text-white/40 hover:text-white hover:bg-[var(--color-accent)]/20 transition-all border border-white/10">
+                    <a href="https://www.instagram.com/boats_rental_dubai__?igsh=YmR1YjdudmJwZTVn&utm_source=qr" target="_blank" rel="noopener noreferrer" className="w-11 h-11 rounded-full bg-white/5 flex items-center justify-center text-white/40 hover:text-white hover:bg-[var(--color-accent)]/20 transition-all border border-white/10">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/share/1BCCXfV9GG/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="w-11 h-11 rounded-full bg-white/5 flex items-center justify-center text-white/40 hover:text-white hover:bg-[var(--color-accent)]/20 transition-all border border-white/10">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
                     </a>
                     <a href="https://www.tiktok.com/@yacht_charter_dubai?_r=1&_t=ZS-950tXGnjkWr" target="_blank" rel="noopener noreferrer" className="w-11 h-11 rounded-full bg-white/5 flex items-center justify-center text-white/40 hover:text-white hover:bg-[var(--color-accent)]/20 transition-all border border-white/10">
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 448 512" fill="currentColor"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg>
@@ -551,8 +562,11 @@ export function Header() {
 
                 {/* 5. SOCIALS */}
                 <div className="pt-8 border-t border-white/5 flex items-center gap-6 justify-center">
-                  <a href="https://www.instagram.com/yachts_rental_dubai_dxb?igsh=eDV6YzJhbDJvbXFu" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors">
+                  <a href="https://www.instagram.com/boats_rental_dubai__?igsh=YmR1YjdudmJwZTVn&utm_source=qr" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                  </a>
+                  <a href="https://www.facebook.com/share/1BCCXfV9GG/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
                   </a>
                   <a href="https://www.tiktok.com/@yacht_charter_dubai?_r=1&_t=ZS-950tXGnjkWr" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 448 512" fill="currentColor"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg>

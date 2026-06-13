@@ -285,25 +285,25 @@
             "includes": "Incluye"
         },
         "platters": {
-            "title": "SELECCIÓN DE QUESOS Y DIPS",
+            "title": "TABLA DE APERITIVOS Y EMBUTIDOS",
             "subtitle": "El más popular",
             "ideal_for": "Cumpleaños y lujo casual.",
-            "includes": "Exquisita variedad de quesos, galletas artesanales, frutos secos y salsas para compartir.",
+            "includes": "Chips artesanales, galletas con dips cremosos, tabla de charcutería con embutidos curados, quesos variados, aceitunas y uvas. Refrescos e hielo incluidos.",
             "button": "Solicitar Catálogo"
         },
         "sushi": {
-            "title": "FUSIÓN ASIÁTICA",
+            "title": "BOCADOS GOURMET INDIVIDUALES",
             "subtitle": "Favorito VIP",
             "ideal_for": "Eventos corporativos y networking.",
-            "includes": "Deliciosos platos asiáticos estilo street-food en cajas individuales listos para disfrutar.",
+            "includes": "Raciones gourmet individuales en cajas eco-friendly: tataki de atún marinado, bocados con hierbas aromáticas, sésamo y hierbas frescas. Elegante y listo para servir.",
             "button": "Solicitar Catálogo"
         },
         "bbq": {
-            "title": "BANDEJAS DE FRUTAS FRESCAS",
+            "title": "BANDEJA DE FRUTAS TROPICALES",
             "subtitle": "Alto impacto",
             "ideal_for": "Grandes celebraciones y grupos.",
-            "includes": "Colorida y refrescante selección de frutas tropicales de temporada, ideal para el clima de Dubái.",
-            "button": "Planificar Barbacoa"
+            "includes": "Selección de frutas exóticas y de temporada: sandía, fruta del dragón, maracuyá, uvas, arándanos, cerezas, mango y melón. Decorado con flores comestibles.",
+            "button": "Planificar Menú"
         }
     },
     "addons": {

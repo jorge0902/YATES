@@ -44,7 +44,7 @@ export function WaterSportsSection() {
       title: t("watersports.catalog.activities.donut.title"),
       subtitle: t("watersports.catalog.activities.donut.subtitle"),
       desc: t("watersports.catalog.activities.donut.desc"),
-      image: "/assets/watersports/ws-10.jpeg"
+      image: "/assets/watersports/donut.png"
     },
     {
       title: t("watersports.catalog.activities.paddle.title"),

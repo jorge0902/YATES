@@ -46,7 +46,6 @@
     },
     "packages": {
       "tag": "THE VIBE COLLECTION",
-
       "sunset": {
         "title": "SUNSET LOUNGE",
         "subtitle": "The most romantic",
@@ -286,25 +285,25 @@
             "includes": "Includes"
         },
         "platters": {
-            "title": "CHEESE & DIPS SELECTION",
+            "title": "CHARCUTERIE & SNACK BOARDS",
             "subtitle": "The most popular",
             "ideal_for": "Birthdays and casual luxury.",
-            "includes": "Exquisite variety of cheeses, artisan crackers, nuts, and dips to share.",
+            "includes": "Artisanal chips, crackers with creamy dips, charcuterie boards with cured meats, cheeses, olives, and grapes. Soft drinks and ice included.",
             "button": "Request Catalog"
         },
         "sushi": {
-            "title": "ASIAN FUSION BITES",
+            "title": "GOURMET INDIVIDUAL BITES",
             "subtitle": "VIP Favorite",
             "ideal_for": "Corporate events and networking.",
-            "includes": "Delicious Asian street-food style dishes in individual boxes ready to enjoy.",
+            "includes": "Individual gourmet servings in eco-friendly boxes: marinated tuna tataki, herb-seasoned bites, sesame seeds and fresh herbs. Elegant and ready to serve.",
             "button": "Request Catalog"
         },
         "bbq": {
-            "title": "FRESH FRUIT PLATTERS",
+            "title": "TROPICAL FRUIT PLATTER",
             "subtitle": "High impact",
             "ideal_for": "Large celebrations and groups.",
-            "includes": "Colorful and refreshing selection of seasonal tropical fruits, ideal for Dubai weather.",
-            "button": "Plan BBQ"
+            "includes": "Exotic and seasonal fruit selection: watermelon, dragon fruit, passion fruit, grapes, blueberries, cherries, mango and melon. Decorated with edible flowers.",
+            "button": "Plan Menu"
         }
     },
     "addons": {

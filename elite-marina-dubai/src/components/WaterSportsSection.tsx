@@ -20,37 +20,37 @@ export function WaterSportsSection() {
       title: t("watersports.catalog.activities.jetski.title"),
       subtitle: t("watersports.catalog.activities.jetski.subtitle"),
       desc: t("watersports.catalog.activities.jetski.desc"),
-      image: "/assets/watersports/ws-1.jpeg"
+      image: "/assets/watersports/jetski.png"
     },
     {
       title: t("watersports.catalog.activities.seabob.title"),
       subtitle: t("watersports.catalog.activities.seabob.subtitle"),
       desc: t("watersports.catalog.activities.seabob.desc"),
-      image: "/assets/watersports/ws-2.jpeg"
+      image: "/assets/watersports/seabob.png"
     },
     {
       title: t("watersports.catalog.activities.wakeboarding.title"),
       subtitle: t("watersports.catalog.activities.wakeboarding.subtitle"),
       desc: t("watersports.catalog.activities.wakeboarding.desc"),
-      image: "/assets/watersports/ws-3.jpeg"
+      image: "/assets/watersports/wakeboard.png"
     },
     {
       title: t("watersports.catalog.activities.banana.title"),
       subtitle: t("watersports.catalog.activities.banana.subtitle"),
       desc: t("watersports.catalog.activities.banana.desc"),
-      image: "/assets/watersports/ws-4.jpeg"
+      image: "/assets/watersports/banana.png"
     },
     {
       title: t("watersports.catalog.activities.donut.title"),
       subtitle: t("watersports.catalog.activities.donut.subtitle"),
       desc: t("watersports.catalog.activities.donut.desc"),
-      image: "/assets/watersports/ws-5.jpeg"
+      image: "/assets/watersports/ws-10.jpeg"
     },
     {
       title: t("watersports.catalog.activities.paddle.title"),
       subtitle: t("watersports.catalog.activities.paddle.subtitle"),
       desc: t("watersports.catalog.activities.paddle.desc"),
-      image: "/assets/watersports/ws-6.jpeg"
+      image: "/assets/watersports/paddle.png"
     }
   ];
 

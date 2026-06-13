@@ -46,6 +46,7 @@
     },
     "packages": {
       "tag": "THE VIBE COLLECTION",
+
       "sunset": {
         "title": "SUNSET LOUNGE",
         "subtitle": "The most romantic",
@@ -285,24 +286,24 @@
             "includes": "Includes"
         },
         "platters": {
-            "title": "SIGNATURE PLATTERS",
+            "title": "CHEESE & DIPS SELECTION",
             "subtitle": "The most popular",
             "ideal_for": "Birthdays and casual luxury.",
-            "includes": "Mix of canapés, premium sliders, fruit platters, and dessert selection. Soft drinks and ice included.",
+            "includes": "Exquisite variety of cheeses, artisan crackers, nuts, and dips to share.",
             "button": "Request Catalog"
         },
         "sushi": {
-            "title": "SUSHI & LUXE BITES",
+            "title": "ASIAN FUSION BITES",
             "subtitle": "VIP Favorite",
             "ideal_for": "Corporate events and networking.",
-            "includes": "Selection of varied sushi, hot and cold gourmet canapés, and signature mini desserts.",
+            "includes": "Delicious Asian street-food style dishes in individual boxes ready to enjoy.",
             "button": "Request Catalog"
         },
         "bbq": {
-            "title": "LIVE BBQ EXPERIENCE",
+            "title": "FRESH FRUIT PLATTERS",
             "subtitle": "High impact",
             "ideal_for": "Large celebrations and groups.",
-            "includes": "Live grill setup, premium cuts of meat and seafood, sides, and chef onboard.",
+            "includes": "Colorful and refreshing selection of seasonal tropical fruits, ideal for Dubai weather.",
             "button": "Plan BBQ"
         }
     },

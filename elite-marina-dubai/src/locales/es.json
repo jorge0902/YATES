@@ -285,24 +285,24 @@
             "includes": "Incluye"
         },
         "platters": {
-            "title": "BANDEJAS DE AUTOR",
+            "title": "SELECCIÓN DE QUESOS Y DIPS",
             "subtitle": "El más popular",
             "ideal_for": "Cumpleaños y lujo casual.",
-            "includes": "Mix de canapés, sliders premium, bandejas de fruta y selección de postres. Refrescos e hielo incluidos.",
+            "includes": "Exquisita variedad de quesos, galletas artesanales, frutos secos y salsas para compartir.",
             "button": "Solicitar Catálogo"
         },
         "sushi": {
-            "title": "SUSHI Y BOCADOS DE LUJO",
+            "title": "FUSIÓN ASIÁTICA",
             "subtitle": "Favorito VIP",
             "ideal_for": "Eventos corporativos y networking.",
-            "includes": "Selección de sushi variado, canapés gourmet fríos y calientes, y mini postres de autor.",
+            "includes": "Deliciosos platos asiáticos estilo street-food en cajas individuales listos para disfrutar.",
             "button": "Solicitar Catálogo"
         },
         "bbq": {
-            "title": "EXPERIENCIA DE BARBACOA",
+            "title": "BANDEJAS DE FRUTAS FRESCAS",
             "subtitle": "Alto impacto",
             "ideal_for": "Grandes celebraciones y grupos.",
-            "includes": "Montaje de parrilla en vivo, cortes premium de carne y mariscos, guarniciones y chef a bordo.",
+            "includes": "Colorida y refrescante selección de frutas tropicales de temporada, ideal para el clima de Dubái.",
             "button": "Planificar Barbacoa"
         }
     },

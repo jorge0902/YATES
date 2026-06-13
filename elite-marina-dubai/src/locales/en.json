@@ -264,11 +264,11 @@
         "beverage": "Beverage Service"
     },
     "grid": {
-        "canapes": { "title": "CANAPÉS & BITES", "desc": "Gourmet bite-sized delights." },
+        "canapes": { "title": "BRUNCH & BEVERAGES", "desc": "Fresh juices, champagne, fruits and pastries to start the day." },
         "sushi": { "title": "SUSHI PLATTERS", "desc": "Fresh sushi and sashimi selections with Instagram-ready presentation." },
-        "bbq_setup": { "title": "LIVE BBQ SETUP", "desc": "Premium BBQ cooked to order." },
-        "desserts": { "title": "DESSERTS & CAKES", "desc": "Fine pastries and cakes." },
-        "fruits": { "title": "FRUIT PLATTERS", "desc": "Tropical and seasonal fruits." }
+        "bbq_setup": { "title": "CHARCUTERIE BOARDS", "desc": "Premium selection of cheeses, grapes, crackers, and top-quality cold cuts." },
+        "desserts": { "title": "CANAPÉS & TAPAS", "desc": "Exquisite salmon canapés, artisanal breads and cold delights." },
+        "fruits": { "title": "LIVE BBQ SETUP", "desc": "Premium BBQ cooked to order by our onboard chef." }
     },
     "value_props": {
         "title": "WHY OUR CATERING?",

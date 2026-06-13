@@ -141,16 +141,16 @@ export function YachtCateringSection() {
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.1 }}
-                  className={`relative h-64 md:h-80 rounded-2xl overflow-hidden group ${item.colSpan === 2 ? 'lg:col-span-2' : 'lg:col-span-1'}`}
+                  className={`relative h-64 md:h-80 rounded-2xl overflow-hidden group shadow-[0_8px_30px_rgba(0,0,0,0.3)] border border-white/10 ${item.colSpan === 2 ? 'lg:col-span-2' : 'lg:col-span-1'}`}
                 >
-                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors z-10 duration-500"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent group-hover:via-black/40 transition-colors z-10 duration-500"></div>
                   <img src={item.image} alt={item.title} className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000" />
                   
                   {/* Etiqueta Flotante Hover */}
                   <div className="absolute inset-0 flex flex-col justify-end p-6 z-20">
-                    <div className="bg-black/60 backdrop-blur-md border border-white/10 p-4 rounded-xl translate-y-2 opacity-90 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+                    <div className="bg-black/40 backdrop-blur-lg border-t border-white/20 p-5 rounded-xl translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 shadow-xl">
                       <h4 className="text-white font-sans font-bold text-xs tracking-widest uppercase mb-1">{item.title}</h4>
-                      <p className="text-white/70 font-sans font-light text-[11px] leading-relaxed">{item.desc}</p>
+                      <p className="text-white/80 font-sans font-light text-[11px] leading-relaxed">{item.desc}</p>
                     </div>
                   </div>
                 </motion.div>

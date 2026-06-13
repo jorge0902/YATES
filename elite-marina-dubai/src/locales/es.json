@@ -264,11 +264,11 @@
         "beverage": "Servicio de Bebidas"
     },
     "grid": {
-        "canapes": { "title": "CANAPÉS Y BOCADOS", "desc": "Delicias gourmet en formato bocado." },
+        "canapes": { "title": "BRUNCH Y BEBIDAS", "desc": "Zumos frescos, champán, frutas y bollería para comenzar el día." },
         "sushi": { "title": "BANDEJAS DE SUSHI", "desc": "Selecciones de sushi y sashimi frescos con una presentación lista para Instagram." },
-        "bbq_setup": { "title": "BARBACOA EN VIVO", "desc": "Barbacoa premium preparada al momento." },
-        "desserts": { "title": "POSTRES Y PASTELES", "desc": "Fina repostería y tartas." },
-        "fruits": { "title": "BANDEJAS DE FRUTA", "desc": "Frutas tropicales y de temporada." }
+        "bbq_setup": { "title": "TABLAS DE QUESOS", "desc": "Selección premium de quesos, uvas, galletas y embutidos de primera calidad." },
+        "desserts": { "title": "CANAPÉS Y TAPAS", "desc": "Exquisitos canapés de salmón, panes artesanales y delicias frías." },
+        "fruits": { "title": "BARBACOA EN VIVO", "desc": "Barbacoa premium preparada al momento por nuestro chef a bordo." }
     },
     "value_props": {
         "title": "¿POR QUÉ NUESTRO CATERING?",
